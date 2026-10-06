@@ -1,49 +1,133 @@
----
-layout: default
----
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080b16">
+  <meta name="description" content="인당소프트 — 작지만 오래 기억되는 게임을 만듭니다. 슈터 서바이벌과 이세계 아이돌 키우기를 만나보세요.">
+  <meta property="og:title" content="인당소프트 — 작은 팀, 큰 세계">
+  <meta property="og:description" content="슈터 서바이벌 · 이세계 아이돌 키우기. 인당소프트의 게임을 만나보세요.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mike-kor.github.io/">
+  <title>인당소프트 | 작은 팀, 큰 세계</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23080b16'/%3E%3Cpath d='M17 42V22h8l7 10 7-10h8v20h-7V32l-8 10-8-10v10z' fill='%23b9ff66'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Gabarito:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/home.css">
+</head>
+<body>
+  <div class="site-noise" aria-hidden="true"></div>
+  <div class="ambient ambient-a" aria-hidden="true"></div>
+  <div class="ambient ambient-b" aria-hidden="true"></div>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-    <article class="post">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <h1>{{ post.title }}</h1>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="인당소프트 홈">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span class="brand-name">INDANG<span>SOFT</span></span>
+    </a>
+    <nav class="main-nav" aria-label="주요 메뉴">
+      <a href="#games">GAMES</a>
+      <a href="#studio">STUDIO</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <a class="header-privacy" href="/app-privacy/">개인정보처리방침 <span>↗</span></a>
+  </header>
 
-        <div>
-          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> INDANGSOFT / GAME STUDIO</p>
+        <h1>작은 팀이 만든<br><em>큰 세계.</em></h1>
+        <p class="hero-lede">짧은 순간에도 오래 남는 재미를 만듭니다.<br>직접 플레이하고, 계속 다듬고, 함께 키워가는 게임.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#games">게임 둘러보기 <b>↓</b></a>
+          <a class="button button-quiet" href="#studio">우리는 누구인가 <span>↗</span></a>
         </div>
-      </a>
-      <div class="entry">
-        {{ post.excerpt }}
+        <div class="hero-note"><span>NOW PLAYING</span> 두 개의 세계가 열려 있습니다</div>
+      </div>
+      <div class="hero-art" aria-label="인당소프트 게임 세계를 표현한 장식 이미지">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-card hero-card-back"><span>BUILD / PLAY / REPEAT</span></div>
+        <div class="hero-card hero-card-main">
+          <div class="hero-card-top"><span>ISD-02</span><span>LIVE</span></div>
+          <div class="hero-spark spark-one"></div><div class="hero-spark spark-two"></div><div class="hero-spark spark-three"></div>
+          <div class="hero-symbol">✦</div>
+          <div class="hero-card-footer"><strong>PLAY<br>YOUR<br>WAY</strong><span>INDANG<br>SOFT</span></div>
+        </div>
+        <div class="hero-sticker"><span>EST.</span><strong>2024</strong><small>SEOUL / KOREA</small></div>
+        <div class="hero-coord">37°33' N<br>126°58' E</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="인당소프트 소개 문구">
+      <div class="ticker-track"><span>MADE WITH CARE</span><b>✳</b><span>PLAYABLE WORLDS</span><b>✳</b><span>SMALL TEAM, BIG DREAMS</span><b>✳</b><span>MADE WITH CARE</span><b>✳</b><span>PLAYABLE WORLDS</span><b>✳</b></div>
+    </section>
+
+    <section id="games" class="games section-shell">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow"><span class="eyebrow-dot"></span> OUR GAMES</p><h2>지금, 플레이할 수 있는<br><em>두 개의 세계</em></h2></div>
+        <p class="section-intro">서로 다른 장르, 같은 마음.<br>한 판 더 하고 싶은 게임을 만듭니다.</p>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+      <div class="game-grid">
+        <article class="game-card shooter-card reveal">
+          <div class="game-visual shooter-visual">
+            <div class="visual-grid"></div><div class="moon"></div><div class="shoot-star"></div>
+            <div class="planet planet-one"></div><div class="planet planet-two"></div>
+            <div class="ship"><span></span><i></i><b></b></div>
+            <div class="enemy enemy-one">✦</div><div class="enemy enemy-two">✦</div><div class="enemy enemy-three">✦</div>
+            <div class="visual-label">SURVIVE<br><strong>THE VOID</strong></div>
+            <div class="visual-version">v0.9.0 / EARLY ACCESS</div>
+          </div>
+          <div class="game-info">
+            <div class="game-index">01 <span>/</span> ACTION SURVIVAL</div>
+            <h3>슈터 서바이벌</h3><p class="game-title-en">SHOOTER SURVIVAL</p>
+            <p class="game-description">끝없이 몰려오는 적을 뚫고, 더 강해지고, 마지막까지 살아남으세요. 한 손으로 즐기는 우주 생존 액션.</p>
+            <div class="tag-list"><span>생존 액션</span><span>스테이지 클리어</span><span>기록 도전</span></div>
+            <a class="game-link" href="https://shooter-survival.vercel.app" target="_blank" rel="noopener">게임 시작하기 <span>↗</span></a>
+          </div>
+        </article>
 
-  <!-- pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-    {% else %}
-      <span>&laquo; Prev</span>
-    {% endif %}
+        <article class="game-card idol-card reveal">
+          <div class="game-visual idol-visual">
+            <div class="idol-glow"></div><div class="idol-star star-a">✦</div><div class="idol-star star-b">✧</div><div class="idol-star star-c">✦</div>
+            <div class="idol-stage"><div class="stage-light light-a"></div><div class="stage-light light-b"></div><div class="stage-floor"></div></div>
+            <div class="idol-figure"><div class="idol-head"></div><div class="idol-hair"></div><div class="idol-body"></div><div class="idol-mic">●</div></div>
+            <div class="visual-label">YOUR VOICE<br><strong>IS MAGIC</strong></div>
+            <div class="visual-version">v1.1.0 / BETA</div>
+          </div>
+          <div class="game-info">
+            <div class="game-index">02 <span>/</span> IDLE RPG</div>
+            <h3>이세계 아이돌 키우기</h3><p class="game-title-en">ANOTHERWORLD IDOL</p>
+            <p class="game-description">마이크 하나 들고 이세계에 떨어진 신인 아이돌. 노래와 춤으로 몬스터를 물리치고 최고의 무대를 완성하세요.</p>
+            <div class="tag-list"><span>방치형 RPG</span><span>성장과 수집</span><span>이세계 스토리</span></div>
+            <a class="game-link" href="https://isekai-idol.vercel.app" target="_blank" rel="noopener">게임 시작하기 <span>↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <span class="webjeda">{{ page }}</span>
-      {% elsif page == 1 %}
-        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
+    <section id="studio" class="studio section-shell">
+      <div class="studio-art reveal"><div class="studio-square"></div><div class="studio-ring"></div><div class="studio-cross">+</div><div class="studio-caption">A LITTLE<br>STUDIO<br>WITH A LOT<br>OF HEART.</div></div>
+      <div class="studio-copy reveal"><p class="eyebrow"><span class="eyebrow-dot"></span> ABOUT INDANGSOFT</p><h2>게임은 작아도,<br><em>마음은 크게.</em></h2><p>인당소프트는 플레이어의 하루에 작은 재미를 더하는 인디 게임 스튜디오입니다. 거대한 세계관보다 손에 잡히는 조작감, 화려한 말보다 한 번 더 누르고 싶은 재미를 중요하게 생각합니다.</p><p>아직은 두 개의 게임으로 시작하지만, 플레이하는 사람과 함께 오래 키워가는 스튜디오가 되겠습니다.</p><div class="studio-sign"><span>MADE BY</span><strong>INDANGSOFT</strong><i></i></div></div>
+    </section>
 
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% else %}
-      <span>Next &raquo;</span>
-    {% endif %}
-  </div>
-  {% endif %}
-</div>
+    <section class="values section-shell">
+      <div class="value"><span class="value-number">01</span><h3>PLAY FIRST</h3><p>설명보다 플레이가 먼저 느껴지는 게임을 만듭니다.</p></div>
+      <div class="value"><span class="value-number">02</span><h3>KEEP GROWING</h3><p>작은 업데이트 하나도 게임의 다음 장면으로 이어지게 합니다.</p></div>
+      <div class="value"><span class="value-number">03</span><h3>STAY HUMAN</h3><p>만드는 사람과 플레이하는 사람 모두 즐거운 방향을 찾습니다.</p></div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer section-shell">
+    <div class="footer-top"><div><a class="brand footer-brand" href="#top"><span class="brand-mark"><i></i><i></i><i></i></span><span class="brand-name">INDANG<span>SOFT</span></span></a><p>작은 팀, 큰 세계.</p></div><div class="footer-links"><a href="#games">GAMES</a><a href="#studio">STUDIO</a><a href="/app-privacy/">PRIVACY</a></div></div>
+    <div class="footer-bottom"><span>© 2024–2026 INDANGSOFT. ALL RIGHTS RESERVED.</span><span>MADE FOR PLAYERS, ONE BUILD AT A TIME.</span></div>
+  </footer>
+  <script>
+    const observer = new IntersectionObserver((entries) => entries.forEach((entry) => { if (entry.isIntersecting) entry.target.classList.add('is-visible'); }), { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+  </script>
+</body>
+</html>
