@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380" role="img" aria-labelledby="title desc">
+  <title id="title">INDANG SOFT succulent emblem</title>
+  <desc id="desc">An echeveria rosette with jade leaves, blush tips and a fine gold ring.</desc>
+  <defs>
+    <radialGradient id="disc" cx="38%" cy="28%"><stop stop-color="#183d38"/><stop offset="1" stop-color="#071b1b"/></radialGradient>
+    <linearGradient id="leaf" x1="0" y1="1" x2="0.7" y2="0"><stop stop-color="#246e60"/><stop offset=".55" stop-color="#62bd99"/><stop offset="1" stop-color="#a7e1bd"/></linearGradient>
+    <linearGradient id="inner" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#58aa88"/><stop offset="1" stop-color="#d5f1d9"/></linearGradient>
+    <path id="petal" d="M0 9 C-23 -5 -26 -38 0 -79 C26 -38 23 -5 0 9Z"/>
+    <path id="innerPetal" d="M0 7 C-18 -4 -21 -29 0 -57 C21 -29 18 -4 0 7Z"/>
+  </defs>
+  <circle cx="190" cy="190" r="169" fill="url(#disc)" stroke="#d8b46a" stroke-width="3"/>
+  <circle cx="190" cy="190" r="157" fill="none" stroke="#d8b46a" stroke-opacity=".38" stroke-width="1"/>
+  <g transform="translate(190 190)" stroke="#154c43" stroke-width="1.5" stroke-linejoin="round">
+    <g fill="#2f8a72">
+      <use href="#petal" transform="rotate(0) scale(1.16)"/><use href="#petal" transform="rotate(30) scale(1.16)"/><use href="#petal" transform="rotate(60) scale(1.16)"/><use href="#petal" transform="rotate(90) scale(1.16)"/><use href="#petal" transform="rotate(120) scale(1.16)"/><use href="#petal" transform="rotate(150) scale(1.16)"/><use href="#petal" transform="rotate(180) scale(1.16)"/><use href="#petal" transform="rotate(210) scale(1.16)"/><use href="#petal" transform="rotate(240) scale(1.16)"/><use href="#petal" transform="rotate(270) scale(1.16)"/><use href="#petal" transform="rotate(300) scale(1.16)"/><use href="#petal" transform="rotate(330) scale(1.16)"/>
+    </g>
+    <g fill="url(#leaf)">
+      <use href="#petal" transform="rotate(15) translate(0 22) scale(.94)"/><use href="#petal" transform="rotate(60) translate(0 22) scale(.94)"/><use href="#petal" transform="rotate(105) translate(0 22) scale(.94)"/><use href="#petal" transform="rotate(150) translate(0 22) scale(.94)"/><use href="#petal" transform="rotate(195) translate(0 22) scale(.94)"/><use href="#petal" transform="rotate(240) translate(0 22) scale(.94)"/><use href="#petal" transform="rotate(285) translate(0 22) scale(.94)"/><use href="#petal" transform="rotate(330) translate(0 22) scale(.94)"/>
+    </g>
+    <g fill="url(#inner)">
+      <use href="#innerPetal" transform="rotate(0) translate(0 29) scale(.84)"/><use href="#innerPetal" transform="rotate(45) translate(0 29) scale(.84)"/><use href="#innerPetal" transform="rotate(90) translate(0 29) scale(.84)"/><use href="#innerPetal" transform="rotate(135) translate(0 29) scale(.84)"/><use href="#innerPetal" transform="rotate(180) translate(0 29) scale(.84)"/><use href="#innerPetal" transform="rotate(225) translate(0 29) scale(.84)"/><use href="#innerPetal" transform="rotate(270) translate(0 29) scale(.84)"/><use href="#innerPetal" transform="rotate(315) translate(0 29) scale(.84)"/>
+    </g>
+    <g fill="#d8f1dd">
+      <use href="#innerPetal" transform="rotate(0) translate(0 17) scale(.47)"/><use href="#innerPetal" transform="rotate(60) translate(0 17) scale(.47)"/><use href="#innerPetal" transform="rotate(120) translate(0 17) scale(.47)"/><use href="#innerPetal" transform="rotate(180) translate(0 17) scale(.47)"/><use href="#innerPetal" transform="rotate(240) translate(0 17) scale(.47)"/><use href="#innerPetal" transform="rotate(300) translate(0 17) scale(.47)"/>
+    </g>
+    <circle r="9" fill="#f08c86" stroke="#f7c1aa" stroke-width="2"/>
+  </g>
+  <g fill="#f2d898"><circle cx="190" cy="20" r="3"/><circle cx="360" cy="190" r="3"/><circle cx="190" cy="360" r="3"/><circle cx="20" cy="190" r="3"/></g>
+</svg>
