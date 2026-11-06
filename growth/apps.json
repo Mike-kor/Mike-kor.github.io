@@ -1,9 +1,9 @@
 [
   {
     "slug": "numeron",
-    "name": "NUMERON: 숫자 생존 퍼즐",
+    "name": "NUMERON - 숫자로 싸우는 전쟁",
     "short": "NUMERON",
-    "stage": "Android · 비공개 테스트",
+    "stage": "Google Play · 출시",
     "platform": "android",
     "art": "/assets/portfolio/numeron.jpg",
     "hook": "숫자를 연결해 목표식을 만들고, 적의 파도에서 별을 지켜내세요.",
@@ -21,15 +21,15 @@
       "숫자 노드 게임",
       "우주 생존 퍼즐"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.mikekor.numeron",
     "email": "NUMERON 테스트 참여 문의",
     "storeShort": "숫자식을 완성해 적의 파도에서 별을 지키는 실시간 생존 퍼즐."
   },
   {
     "slug": "shooter-survival",
-    "name": "슈터 서바이벌",
+    "name": "슈터서바이벌",
     "short": "SHOOTER SURVIVAL",
-    "stage": "Android · 비공개 테스트 / 웹 플레이 가능",
+    "stage": "Google Play · 출시 · 웹 플레이 가능",
     "platform": "android web",
     "art": "/assets/portfolio/shooter.jpg",
     "hook": "네온 전장에서 무기를 진화시키고, 보스 웨이브까지 버텨보세요.",
@@ -47,16 +47,16 @@
       "무기 진화 서바이벌",
       "웹 슈팅 게임"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.shootersurvival.app",
     "web": "https://shooter-survival.vercel.app",
     "email": "슈터 서바이벌 테스트 문의",
     "storeShort": "자동 조준 생존 슈터! 무기를 진화시키고 네온 전장과 보스를 돌파하세요."
   },
   {
     "slug": "goldilocks",
-    "name": "골디락스: 행성 개척 전략",
+    "name": "GOLDILOCKS: Planet Conquest",
     "short": "GOLDILOCKS",
-    "stage": "Android · 비공개 테스트",
+    "stage": "Google Play · 출시",
     "platform": "android",
     "art": "/assets/portfolio/goldilocks.jpg",
     "hook": "살아갈 수 있는 행성을 만들고, 방어선을 세워 확장하세요.",
@@ -74,7 +74,7 @@
       "행성 방어 게임",
       "우주 과학 도감 게임"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.indangsoft.goldilocks",
     "email": "골디락스 테스트 참여 문의",
     "storeShort": "외계 행성을 테라포밍하고 침략을 막아 은하를 개척하세요."
   },
@@ -82,7 +82,7 @@
     "slug": "tome-of-return",
     "name": "귀환의 서",
     "short": "TOME OF RETURN",
-    "stage": "Android · 비공개 테스트",
+    "stage": "Google Play · 출시",
     "platform": "android",
     "art": "/assets/portfolio/return.jpg",
     "hook": "검과 주문서가 기다리는 세로형 판타지 세계로 돌아오세요.",
@@ -100,7 +100,7 @@
       "동료 수집 RPG",
       "직접 조작 RPG"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.vectormud.afterglow",
     "email": "귀환의 서 테스트 참여 문의",
     "storeShort": "검과 주문서의 세계를 탐험하는 세로형 판타지 액션 RPG."
   },
@@ -126,15 +126,15 @@
       "물리 게임 모바일",
       "힐링 관찰 게임"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.indangsoft.drawsnowball",
     "email": "눈덩이 대재앙 테스트 문의",
     "storeShort": "눈덩이를 굴려 키우고 끝없이 성장하는 과정을 지켜보세요."
   },
   {
     "slug": "mukgeom",
-    "name": "묵검: 천마의 길",
+    "name": "묵검: 천마일대기",
     "short": "MUKGEOM",
-    "stage": "Android · 무협 콘텐츠 전환 중",
+    "stage": "Google Play · 출시",
     "platform": "android",
     "art": "/assets/portfolio/mukgeom.jpg",
     "hook": "이름 없는 무인이 묵검을 만나 천마의 길에 오릅니다.",
@@ -152,7 +152,7 @@
       "무협 성장 게임",
       "천마 무협 게임"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.indangsoft.chunma",
     "email": "묵검 테스트 참여 문의",
     "storeShort": "묵검을 만나 천마의 길을 걷는 무협 RPG 프로젝트."
   },
@@ -160,7 +160,7 @@
     "slug": "isekai-idol",
     "name": "이세계 아이돌 키우기",
     "short": "ISEKAI IDOL",
-    "stage": "Android · 비공개 테스트",
+    "stage": "Google Play · 출시",
     "platform": "android",
     "art": "/assets/portfolio/idol.jpg",
     "hook": "무대를 키우고 팬을 모아 이세계의 위협에 맞서세요.",
@@ -178,7 +178,7 @@
       "방치형 아이돌 게임",
       "픽셀 아이돌 RPG"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.isekaiidol.app",
     "email": "이세계 아이돌 키우기 테스트 문의",
     "storeShort": "아이돌을 키워 무대에 세우고 이세계 몬스터에 맞서는 RPG."
   },
@@ -204,7 +204,7 @@
       "투자 경영 게임",
       "아파트 게임"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.indangsoft.aptmarket",
     "email": "집값의 신 테스트 참여 문의",
     "storeShort": "가상 도시의 시장을 읽고 100개 스테이지 투자 전략을 세우세요."
   },
@@ -230,7 +230,7 @@
       "회사 키우기 게임",
       "방치형 시뮬레이션"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.indangsoft.quitverse",
     "email": "퇴사 좀 시켜줘 소식 문의",
     "storeShort": "퇴사하려던 사장이 우주를 인수했다? 회사를 키우는 방치형 경영."
   },
@@ -256,7 +256,7 @@
       "오방기 운세 게임",
       "전통 운세 엔터테인먼트"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.indangsoft.godstatistics",
     "email": "신과 통계 테스트 소식 문의",
     "storeShort": "만세력 통계와 전통 상징으로 풀어보는 운세 엔터테인먼트."
   },
@@ -282,7 +282,7 @@
       "펫 수집 게임",
       "포근한 육성 게임"
     ],
-    "play": null,
+    "play": "https://play.google.com/store/apps/details?id=com.mikekor.tailpivot",
     "email": "말랑꼬리 테스트 참여 문의",
     "storeShort": "작고 말랑한 펫 친구들과 놀고, 포근한 우리 집을 꾸며요!"
   },
