@@ -4,98 +4,157 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101713">
-  <meta name="description" content="INDANG SOFT는 서로 다른 세계와 플레이를 만드는 독립 게임 스튜디오입니다. 일곱 개의 Android 게임을 개발하고 테스트하고 있습니다.">
-  <meta property="og:title" content="INDANG SOFT — Play beyond the ordinary">
-  <meta property="og:description" content="일곱 개의 세계, 각기 다른 플레이. INDANG SOFT의 게임을 만나보세요.">
+  <meta name="description" content="INDANG SOFT가 만드는 열한 개의 Android 게임, 새로운 프로젝트와 웹 세계를 만나보세요.">
+  <meta property="og:title" content="INDANG SOFT — Worlds made to be played">
+  <meta property="og:description" content="11 Android games, two live web experiences, and more worlds in the making.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mike-kor.github.io/">
-  <title>INDANG SOFT — Play beyond the ordinary</title>
+  <title>INDANG SOFT — Worlds made to be played</title>
   <link rel="icon" href="/assets/indang-succulent.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/home.css?v=20261030">
+  <link rel="stylesheet" href="/assets/home.css?v=20261106-d">
+  <script defer src="/assets/home.js?v=20261106-d"></script>
 </head>
 <body>
+  <div class="scroll-meter" aria-hidden="true"><span id="scroll-progress"></span></div>
   <header class="header" id="top">
     <a class="brand" href="#top" aria-label="INDANG SOFT 홈">
-      <img src="/assets/indang-succulent.svg" alt="" width="44" height="44">
+      <img src="/assets/indang-succulent.svg" alt="" width="42" height="42">
       <span>INDANG <b>SOFT</b></span>
     </a>
-    <nav aria-label="주요 메뉴"><a href="#games">GAMES</a><a href="#studio">STUDIO</a></nav>
-    <a class="privacy-link" href="https://mike-kor.github.io/app-privacy/">개인정보처리방침 <span>↗</span></a>
+    <nav class="main-nav" aria-label="주요 메뉴"><a href="#worlds">WORLDS</a><a href="#studio">STUDIO</a></nav>
+    <div class="header-right"><span class="header-note"><i></i> INDEPENDENT GAME STUDIO</span><a class="privacy-link" href="https://mike-kor.github.io/app-privacy/">개인정보처리방침 <span>↗</span></a></div>
   </header>
 
   <main>
     <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-backdrop" aria-hidden="true"><span class="halo halo-a"></span><span class="halo halo-b"></span><span class="glow"></span></div>
       <div class="hero-copy">
-        <p class="kicker"><i></i> INDEPENDENT GAME STUDIO · SEOUL</p>
-        <h1 id="hero-title">Play beyond<br>the <em>ordinary.</em></h1>
-        <p class="hero-ko">새로운 세계는 늘 작은 호기심에서 시작됩니다.<br>INDANG SOFT는 장르의 경계를 넘나들며<br class="desktop-only"> 오래 기억될 플레이를 만듭니다.</p>
-        <a class="discover" href="#games"><span>게임 세계 둘러보기</span><b>↓</b></a>
-        <p class="hero-footnote">7 WORLDS IN DEVELOPMENT <span>·</span> ANDROID</p>
+        <p class="eyebrow"><i></i> WORLDS MADE TO BE PLAYED</p>
+        <h1 id="hero-title">플레이할 세계를<br><em>계속 만듭니다.</em></h1>
+        <p class="hero-lede">전략 퍼즐부터 따뜻한 미니홈피까지.<br>INDANG SOFT는 다른 장르, 다른 감정,<br class="wide-only"> 다른 플레이의 세계를 만듭니다.</p>
+        <div class="hero-actions"><a class="button button-light" href="#worlds">모든 프로젝트 보기 <span>↓</span></a><a class="text-link" href="#studio">스튜디오 이야기 <span>↗</span></a></div>
+        <div class="hero-metrics" aria-label="포트폴리오 요약"><div><strong data-metric="android">11</strong><span>ANDROID<br>APPS</span></div><i></i><div><strong data-metric="web">02</strong><span>LIVE WEB<br>EXPERIENCES</span></div><i></i><div><strong data-metric="all">12</strong><span>PORTFOLIO<br>PROJECTS</span></div></div>
       </div>
-      <div class="hero-visual">
-        <div class="hero-image"><img src="/assets/games/numeron.jpg" alt="NUMERON의 은하와 숫자 전투 아트" fetchpriority="high"></div>
-        <div class="hero-shade"></div>
-        <div class="hero-art-caption"><span>01 / A NEW KIND OF NUMBER GAME</span><strong>NUMERON</strong><small>숫자로 맞서는 은하계 생존 퍼즐</small></div>
-        <div class="hero-index">INDANG SOFT <span>—</span> 2026</div>
-        <div class="hero-orbit" aria-hidden="true"></div>
+
+      <div class="feature-wrap" aria-label="주요 프로젝트 슬라이드">
+        <div class="feature-visual">
+          <div class="feature-art is-active" data-slide="0" aria-hidden="false"><img src="/assets/portfolio/hero-numeron.jpg" alt="NUMERON의 우주 숫자 전투 아트" fetchpriority="high"></div>
+          <div class="feature-art" data-slide="1" aria-hidden="true"><img src="/assets/portfolio/hero-apt.jpg" alt="집값의 신: 한 달만 더의 도시 투자 시뮬레이션 아트" loading="lazy"></div>
+          <div class="feature-art" data-slide="2" aria-hidden="true"><div class="bamti-scene bamti-scene-hero"><img class="sky" src="/assets/portfolio/bamti-sunset.jpg" alt="" loading="lazy"><span class="room-sun"></span><span class="room-floor"></span><img class="room-window" src="/assets/portfolio/bamti/window.svg" alt="" loading="lazy"><img class="room-plant" src="/assets/portfolio/bamti/plant.svg" alt="" loading="lazy"><img class="room-bed" src="/assets/portfolio/bamti/bed.svg" alt="" loading="lazy"><img class="room-beanbag" src="/assets/portfolio/bamti/beanbag.svg" alt="" loading="lazy"><img class="room-cat" src="/assets/portfolio/bamti/cat.svg" alt="" loading="lazy"><span class="room-note">오늘의 작은 세계</span></div></div>
+          <div class="feature-vignette"></div>
+          <div class="feature-topline"><span>FEATURED WORLDS</span><span id="feature-index">01 <i>/</i> 03</span></div>
+          <div class="feature-caption" aria-live="off" aria-atomic="true">
+            <p class="feature-kicker" id="feature-kicker">ANDROID GAME · PUZZLE SURVIVAL</p>
+            <h2 id="feature-title">NUMERON</h2>
+            <p class="feature-description" id="feature-description">숫자 연쇄로 은하를 지키고, 무너지는 전장을 뒤집으세요.</p>
+            <a id="feature-link" href="#project-numeron">세계 들여다보기 <span>↗</span></a>
+          </div>
+          <div class="feature-control-row">
+            <div class="slide-dots" role="group" aria-label="주요 프로젝트 선택">
+              <button class="slide-dot is-active" type="button" aria-label="NUMERON 보기" aria-current="true" data-go-slide="0"><span></span></button>
+              <button class="slide-dot" type="button" aria-label="집값의 신 보기" aria-current="false" data-go-slide="1"><span></span></button>
+              <button class="slide-dot" type="button" aria-label="밤티월드 보기" aria-current="false" data-go-slide="2"><span></span></button>
+            </div>
+            <button class="carousel-toggle" id="carousel-toggle" type="button" aria-label="슬라이드 자동 재생 멈춤" aria-pressed="false"><span class="pause-icon">Ⅱ</span><span class="play-icon">▶</span></button>
+            <div class="slide-arrows"><button type="button" data-slide-step="-1" aria-label="이전 프로젝트">←</button><button type="button" data-slide-step="1" aria-label="다음 프로젝트">→</button></div>
+          </div>
+        </div>
+        <p class="feature-aside"><span>INDANG SOFT / 2026</span><span>SCROLL TO EXPLORE&nbsp; ↓</span></p>
       </div>
-      <div class="hero-bottom"><span>GAMES THAT TAKE YOU SOMEWHERE</span><span>SCROLL TO EXPLORE&nbsp; ↓</span></div>
     </section>
 
-    <section class="games section-wrap" id="games">
-      <div class="section-heading">
-        <div><p class="kicker"><i></i> WORLDS IN PROGRESS</p><h2>일곱 개의 세계.<br><span>일곱 가지 플레이.</span></h2></div>
-        <p>우주 생존부터 무협의 검끝까지.<br>각기 다른 장르를 직접 만들고, 플레이하며,<br>테스트를 통해 더 나은 게임으로 다듬습니다.</p>
-      </div>
+    <section class="portfolio" id="worlds">
+      <div class="portfolio-inner">
+        <div class="section-intro reveal">
+          <div><p class="eyebrow eyebrow-dark"><i></i> THE INDANG SOFT PORTFOLIO</p><h2>열한 개의 앱,<br><span>끝없이 자라는 세계.</span></h2></div>
+          <div class="intro-side"><p>각 프로젝트는 하나의 작은 씨앗입니다.<br>모바일 게임, 웹 플레이, 테스트 단계의 신작까지<br>지금 만들어지는 세계를 한곳에서 만나보세요.</p><span class="portfolio-updated">PORTFOLIO <b>·</b> EXPANDING</span></div>
+        </div>
 
-      <div class="game-grid">
-        <article class="game-card card-feature">
-          <div class="game-image"><img src="/assets/games/numeron.jpg" alt="NUMERON 우주 숫자 퍼즐 아트" loading="lazy"><span class="game-no">01</span></div>
-          <div class="game-copy"><div class="game-meta"><span>PUZZLE · STRATEGY</span><span class="test-pill">비공개 테스트</span></div><h3>NUMERON</h3><p>숫자를 조합해 은하의 전장을 돌파하는 전략 퍼즐.</p><code>com.mikekor.numeron</code></div>
-        </article>
-        <article class="game-card">
-          <div class="game-image"><img src="/assets/games/shooter.jpg" alt="슈터 서바이벌 우주선 아트" loading="lazy"><span class="game-no">02</span></div>
-          <div class="game-copy"><div class="game-meta"><span>ACTION · SURVIVAL</span><span class="test-pill">비공개 테스트</span></div><h3>슈터 서바이벌</h3><p>쏘고, 진화하고, 밀려오는 적 사이에서 끝까지 버텨라.</p><code>com.shootersurvival.app</code></div>
-        </article>
-        <article class="game-card">
-          <div class="game-image"><img src="/assets/games/goldilocks.jpg" alt="골디락스의 푸른 행성과 궤도" loading="lazy"><span class="game-no">03</span></div>
-          <div class="game-copy"><div class="game-meta"><span>SPACE · STRATEGY</span><span class="test-pill">비공개 테스트</span></div><h3>골디락스</h3><p>행성을 개척하고 은하의 다음 거점을 찾아 나서는 우주 전략.</p><code>com.indangsoft.goldilocks</code></div>
-        </article>
-        <article class="game-card">
-          <div class="game-image"><img src="/assets/games/return.jpg" alt="귀환의 서 판타지 모험 아트" loading="lazy"><span class="game-no">04</span></div>
-          <div class="game-copy"><div class="game-meta"><span>FANTASY · RPG</span><span class="test-pill">비공개 테스트</span></div><h3>귀환의 서</h3><p>낯선 판타지 세계에서 이어지는 모험과 성장의 기록.</p><code>com.vectormud.afterglow</code></div>
-        </article>
-        <article class="game-card">
-          <div class="game-image image-snow"><img src="/assets/games/snowball.png" alt="눈덩이 대재앙 게임 아이콘" loading="lazy"><span class="game-no">05</span></div>
-          <div class="game-copy"><div class="game-meta"><span>ARCADE · PHYSICS</span><span class="test-pill">비공개 테스트</span></div><h3>눈덩이 대재앙</h3><p>눈덩이를 굴리고 키우며 눈앞의 장애물을 돌파하는 액션.</p><code>com.indangsoft.drawsnowball</code></div>
-        </article>
-        <article class="game-card">
-          <div class="game-image"><img src="/assets/games/mukgeom.jpg" alt="묵검의 달빛과 검 아트" loading="lazy"><span class="game-no">06</span></div>
-          <div class="game-copy"><div class="game-meta"><span>WUXIA · RPG</span><span class="test-pill">비공개 테스트</span></div><h3>묵검 : 천마일대기</h3><p>검과 수련, 그리고 강호의 길을 그리는 무협 RPG.</p><code>com.indangsoft.chunma</code></div>
-        </article>
-        <article class="game-card card-wide">
-          <div class="game-image"><img src="/assets/games/idol.jpg" alt="이세계 아이돌 키우기 픽셀 아트" loading="lazy"><span class="game-no">07</span></div>
-          <div class="game-copy"><div class="game-meta"><span>IDLE · RPG</span><span class="test-pill">비공개 테스트</span></div><h3>이세계 아이돌 키우기</h3><p>노래와 무대로 성장해 이세계의 몬스터와 맞서는 아이돌 RPG.</p><code>com.isekaiidol.app</code></div>
-        </article>
+        <div class="catalog-tools reveal">
+          <div class="filter-list" role="group" aria-label="프로젝트 필터">
+            <button type="button" class="filter-button is-selected" data-filter="all" aria-pressed="true">ALL <span data-count="all">12</span></button>
+            <button type="button" class="filter-button" data-filter="android" aria-pressed="false">ANDROID <span data-count="android">11</span></button>
+            <button type="button" class="filter-button" data-filter="web" aria-pressed="false">WEB <span data-count="web">2</span></button>
+            <button type="button" class="filter-button" data-filter="preparing" aria-pressed="false">TEST PREP <span data-count="preparing">2</span></button>
+          </div>
+          <label class="project-search"><span class="search-icon" aria-hidden="true">⌕</span><span class="sr-only">프로젝트 검색</span><input id="project-search" type="search" placeholder="이름 또는 장르 검색" autocomplete="off"><kbd>↵</kbd></label>
+        </div>
+        <p id="filter-status" class="sr-only" aria-live="polite">프로젝트 12개 표시</p>
+
+        <div class="project-grid" id="project-grid">
+          <article class="project-card reveal" id="project-numeron" data-platform="android" data-search="numeron 숫자 우주 퍼즐 생존 전략 실시간 조합" data-accent="violet">
+            <div class="project-art"><img src="/assets/portfolio/numeron.jpg" alt="NUMERON 실제 전투 플레이 화면" loading="lazy"><span class="art-index">01</span><span class="art-mark">N°</span></div>
+            <div class="project-details"><div class="project-overline"><span>PUZZLE · SURVIVAL</span><span class="project-status status-testing">비공개 테스트</span></div><h3>NUMERON</h3><p>실시간으로 숫자를 조합해 코어를 지키고, 적의 파도를 연쇄 폭발로 돌파하는 전략 생존 퍼즐.</p><div class="project-bottom"><span>ANDROID GAME</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card reveal" id="project-shooter" data-platform="android web" data-search="shooter survival 슈터 서바이벌 네온 슈팅 생존 액션 보스 웹 게임 플레이" data-accent="cyan">
+            <div class="project-art"><img src="/assets/portfolio/shooter.jpg" alt="슈터 서바이벌 실제 전투 플레이 화면" loading="lazy"><span class="art-index">02</span><span class="art-mark">SURVIVE</span></div>
+            <div class="project-details"><div class="project-overline"><span>ACTION · SURVIVAL</span><span class="project-status status-testing">비공개 테스트</span></div><h3>슈터 서바이벌</h3><p>자동 조준과 무기 진화로 네온 전장을 돌파하세요. 스테이지와 보스, 끝없는 생존 모드.</p><div class="project-bottom"><span>ANDROID · WEB PLAY</span><a class="project-arrow" href="https://shooter-survival.vercel.app" target="_blank" rel="noopener" aria-label="슈터 서바이벌 웹 버전 열기">↗</a></div></div>
+          </article>
+          <article class="project-card reveal" id="project-goldilocks" data-platform="android" data-search="goldilocks 골디락스 행성 테라포밍 은하 우주 전략 방어" data-accent="gold">
+            <div class="project-art"><img src="/assets/portfolio/goldilocks.jpg" alt="골디락스의 행성 개척 플레이 화면" loading="lazy"><span class="art-index">03</span><span class="art-mark">PLANET 01</span></div>
+            <div class="project-details"><div class="project-overline"><span>SPACE · STRATEGY</span><span class="project-status status-testing">비공개 테스트</span></div><h3>골디락스</h3><p>낯선 행성을 테라포밍하고, 방어선을 세워 은하의 새 보금자리를 확장하세요.</p><div class="project-bottom"><span>ANDROID GAME</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card reveal" id="project-return" data-platform="android" data-search="귀환의 서 tome return fantasy 판타지 액션 rpg 전투" data-accent="ember">
+            <div class="project-art"><img src="/assets/portfolio/return.jpg" alt="귀환의 서 실제 전투 플레이 화면" loading="lazy"><span class="art-index">04</span><span class="art-mark">TOME OF RETURN</span></div>
+            <div class="project-details"><div class="project-overline"><span>FANTASY · ACTION RPG</span><span class="project-status status-testing">비공개 테스트</span></div><h3>귀환의 서</h3><p>직접 조작하는 세로형 판타지 액션 RPG. 동료를 모으고 전투와 성장의 길을 이어갑니다.</p><div class="project-bottom"><span>ANDROID GAME</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card reveal" id="project-snowball" data-platform="android" data-search="눈덩이 대재앙 snowball apocalypse physics 성장 시뮬레이션 아케이드" data-accent="ice">
+            <div class="project-art art-snowball"><img src="/assets/portfolio/snowball.jpg" alt="눈덩이 대재앙의 커지는 눈덩이" loading="lazy"><span class="snow-dots" aria-hidden="true">✳　·　✧</span><span class="art-index">05</span></div>
+            <div class="project-details"><div class="project-overline"><span>PHYSICS · GROWTH SIM</span><span class="project-status status-testing">비공개 테스트</span></div><h3>눈덩이 대재앙</h3><p>굴러가며 점점 커지는 눈덩이. 직접 키우는 과정을 관찰하는 물리 기반 성장 시뮬레이션.</p><div class="project-bottom"><span>ANDROID GAME</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card reveal" id="project-mukgeom" data-platform="android" data-search="묵검 천마의 길 천마일대기 wuxia 무협 rpg 강호 전투 성장" data-accent="ink">
+            <div class="project-art"><img src="/assets/portfolio/mukgeom.jpg" alt="묵검의 강호 전투 화면" loading="lazy"><span class="art-index">06</span><span class="art-mark">江湖</span></div>
+            <div class="project-details"><div class="project-overline"><span>WUXIA · RPG</span><span class="project-status status-testing">비공개 테스트</span></div><h3>묵검: 천마의 길</h3><p>수련과 회귀, 사연이 얽힌 강호를 따라 성장하는 세로형 무협 RPG.</p><div class="project-bottom"><span>ANDROID GAME</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card reveal" id="project-idol" data-platform="android" data-search="이세계 아이돌 키우기 idol idle rpg 노래 무대 육성 성장" data-accent="pink">
+            <div class="project-art"><img src="/assets/portfolio/idol.jpg" alt="이세계 아이돌 키우기 픽셀 전투 장면" loading="lazy"><span class="art-index">07</span><span class="art-mark">ON STAGE</span></div>
+            <div class="project-details"><div class="project-overline"><span>IDLE · IDOL RPG</span><span class="project-status status-testing">비공개 테스트</span></div><h3>이세계 아이돌 키우기</h3><p>노래와 무대로 팬을 모으고, 이세계 몬스터에 맞서는 아이돌 육성 RPG.</p><div class="project-bottom"><span>ANDROID GAME</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card reveal" id="project-apt-market" data-platform="android" data-search="집값의 신 한 달만 더 아파트 부동산 투자 경제 시뮬레이션" data-accent="terracotta">
+            <div class="project-art"><img src="/assets/portfolio/apt-market.jpg" alt="집값의 신의 부동산 시뮬레이션 플레이 화면" loading="lazy"><span class="art-index">08</span><span class="art-mark">100 STAGES</span></div>
+            <div class="project-details"><div class="project-overline"><span>ECONOMY · SIMULATION</span><span class="project-status status-testing">비공개 테스트</span></div><h3>집값의 신: 한 달만 더</h3><p>가상 도시의 시장 흐름을 읽고, 100개 스테이지에서 나만의 부동산 포트폴리오를 만드세요.</p><div class="project-bottom"><span>ANDROID GAME</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card reveal" id="project-quitverse" data-platform="android" data-stage="preparing" data-search="퇴사 좀 시켜줘 quitverse idle economy 경영 방치 우주 회사" data-accent="cosmic">
+            <div class="project-art"><img src="/assets/portfolio/quitverse.jpg" alt="퇴사 좀 시켜줘!의 우주 경영 세계" loading="lazy"><span class="art-index">09</span><span class="art-mark">QUITVERSE</span></div>
+            <div class="project-details"><div class="project-overline"><span>IDLE · ECONOMY</span><span class="project-status status-preparing">테스트 준비 중</span></div><h3>퇴사 좀 시켜줘! <small>QUITVERSE</small></h3><p>퇴사하려던 사장이 우주를 인수했다? 회사를 키워 은하계까지 확장하는 방치형 경제 시뮬레이션.</p><div class="project-bottom"><span>ANDROID PROJECT</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card reveal" id="project-god-statistics" data-platform="android" data-stage="preparing" data-search="신과 통계 god statistics 사주 신점 운세 통계 전통 만세력" data-accent="jade">
+            <div class="project-art art-fortune"><img src="/assets/portfolio/god-statistics.svg" alt="신과 통계 심볼" loading="lazy"><span class="art-index">10</span><span class="fortune-orbit" aria-hidden="true"></span><span class="fortune-caption">A PRIVATE<br>READING</span></div>
+            <div class="project-details"><div class="project-overline"><span>FORTUNE · ENTERTAINMENT</span><span class="project-status status-preparing">테스트 준비 중</span></div><h3>신과 통계</h3><p>만세력 통계와 오방기·엽전·산통 인터랙션으로 풀어보는 사주·신점 엔터테인먼트.</p><div class="project-bottom"><span>ANDROID PROJECT</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card reveal" id="project-tail-pivot" data-platform="android" data-search="말랑꼬리 포근펫 키우기 tail pivot 힐링 펫 육성 수집 방 꾸미기" data-accent="petal">
+            <div class="project-art"><img src="/assets/portfolio/tail-pivot.jpg" alt="말랑꼬리의 포근한 다락방과 반려 펫" loading="lazy"><span class="art-index">11</span><span class="art-mark">GROW TOGETHER</span></div>
+            <div class="project-details"><div class="project-overline"><span>COZY · PET COLLECTION</span><span class="project-status status-testing">비공개 테스트</span></div><h3>말랑꼬리: 포근펫 키우기</h3><p>작은 펫과 함께 일하고 모험하며, 가구와 장난감으로 아늑한 방을 꾸미는 힐링 육성 게임.</p><div class="project-bottom"><span>ANDROID GAME</span><span class="project-arrow">↗</span></div></div>
+          </article>
+          <article class="project-card reveal" id="project-bamtiworld" data-platform="web" data-search="밤티월드 bamtiworld 미니홈피 미니룸 가구 방꾸미기 친구 방명록" data-accent="sunset">
+            <a class="project-art art-bamti" href="https://bamtiworld.vercel.app" target="_blank" rel="noopener" aria-label="밤티월드 — 노을 진 미니룸을 꾸미고 친구와 만나는 웹 세계 열기">
+              <div class="bamti-scene bamti-scene-card"><img class="sky" src="/assets/portfolio/bamti-sunset.jpg" alt="" loading="lazy"><span class="room-sun"></span><span class="room-floor"></span><img class="room-window" src="/assets/portfolio/bamti/window.svg" alt="" loading="lazy"><img class="room-plant" src="/assets/portfolio/bamti/plant.svg" alt="" loading="lazy"><img class="room-bed" src="/assets/portfolio/bamti/bed.svg" alt="" loading="lazy"><img class="room-beanbag" src="/assets/portfolio/bamti/beanbag.svg" alt="" loading="lazy"><img class="room-cat" src="/assets/portfolio/bamti/cat.svg" alt="" loading="lazy"><span class="room-note">오늘의 작은 세계</span></div>
+              <span class="art-index">12</span><span class="art-mark">YOUR MINI WORLD</span>
+            </a>
+            <div class="project-details"><div class="project-overline"><span>WEB · SOCIAL WORLD</span><span class="project-status status-live">LIVE WEB</span></div><h3>밤티월드 <small>BAMTI WORLD</small></h3><p>나만의 미니룸을 꾸미고, 미니미와 친구들의 방명록으로 이어지는 작은 웹 세계.</p><div class="project-bottom"><span>WEB EXPERIENCE</span><a class="project-arrow" href="https://bamtiworld.vercel.app" target="_blank" rel="noopener" aria-label="밤티월드 웹사이트 열기">↗</a></div></div>
+          </article>
+        </div>
+        <div class="empty-state" id="empty-state" hidden><span>아직 이 조합에 맞는 세계는 없어요.</span><button type="button" data-filter="all">전체 프로젝트 보기</button></div>
+        <div class="portfolio-foot reveal"><span><b>STILL GROWING</b> — 다음 세계도 준비하고 있습니다.</span><a href="mailto:indangsoft@gmail.com">프로젝트 문의 <span>↗</span></a></div>
       </div>
-      <p class="testing-note"><span>현재 모든 타이틀은 Google Play 비공개 테스트 단계입니다.</span> 공개 출시 일정과 다운로드 링크는 준비되는 대로 안내합니다.</p>
     </section>
 
     <section class="studio" id="studio">
-      <div class="studio-art"><div class="studio-glow"></div><img src="/assets/indang-succulent.svg" alt="INDANG SOFT 다육식물 로고" loading="lazy"><span>GROW WITH CARE</span></div>
-      <div class="studio-copy"><p class="kicker"><i></i> ABOUT THE STUDIO</p><h2>작은 씨앗에서<br><em>새로운 세계로.</em></h2><p>INDANG SOFT의 상징은 천천히 뿌리내리고 자기만의 형태로 자라는 다육식물입니다. 그처럼 게임 하나하나를 정성껏 키워, 플레이어의 기억 속에 오래 머무는 세계로 만들고 싶습니다.</p><p>서로 다른 장르와 새로운 시도를 두려워하지 않는 독립 게임 스튜디오. 지금도 다음 플레이를 만들고 있습니다.</p><a href="mailto:indangsoft@gmail.com" class="contact-link">스튜디오에 문의하기 <span>↗</span></a></div>
+      <div class="studio-inner">
+        <div class="studio-mark reveal"><div class="mark-aura"></div><img src="/assets/indang-succulent.svg" alt="INDANG SOFT 다육식물 엠블럼" loading="lazy"><span>GROW WITH CARE</span><i>37°33′ N &nbsp; 126°58′ E</i></div>
+        <div class="studio-copy reveal"><p class="eyebrow"><i></i> ABOUT INDANG SOFT</p><h2>작은 씨앗에서<br><em>오래 머무는 세계로.</em></h2><p>다육식물은 천천히 뿌리내리고, 자기만의 형태로 자랍니다. INDANG SOFT도 하나의 게임을 정성껏 가꾸고, 그 안에서 더 많은 플레이와 이야기가 자라도록 만듭니다.</p><p>우주 생존, 무협, 시뮬레이션, 미니홈피. 익숙한 장르에 새로운 플레이를 더하며 다음 세계를 계속 준비합니다.</p><a href="mailto:indangsoft@gmail.com" class="studio-contact">함께 이야기 나누기 <span>↗</span></a></div>
+      </div>
+      <div class="studio-bottom"><span>INDANG SOFT · SEOUL, KOREA</span><span>MADE FOR PLAYERS, ONE WORLD AT A TIME.</span></div>
     </section>
-
-    <section class="closing"><p>MAKE A WORLD.<br><em>MAKE IT PLAYABLE.</em></p><img src="/assets/indang-succulent.svg" alt="" loading="lazy"></section>
   </main>
 
   <footer class="footer">
-    <a class="brand" href="#top"><img src="/assets/indang-succulent.svg" alt="" width="38" height="38"><span>INDANG <b>SOFT</b></span></a>
+    <a class="brand footer-brand" href="#top"><img src="/assets/indang-succulent.svg" alt="" width="38" height="38"><span>INDANG <b>SOFT</b></span></a>
     <span class="copyright">© 2026 INDANG SOFT. ALL RIGHTS RESERVED.</span>
-    <div><a href="#games">GAMES</a><a href="https://mike-kor.github.io/app-privacy/">PRIVACY</a><a href="mailto:indangsoft@gmail.com">CONTACT</a></div>
+    <nav aria-label="푸터 메뉴"><a href="#worlds">WORLDS</a><a href="https://mike-kor.github.io/app-privacy/">PRIVACY</a><a href="mailto:indangsoft@gmail.com">CONTACT</a></nav>
   </footer>
 </body>
 </html>

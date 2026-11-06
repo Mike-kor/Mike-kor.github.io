@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 138" width="80" height="138">
+  <defs><linearGradient id="bamti-furniture-plant-default0-g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--bt-leaf,#9ad57a)" /><stop offset="1" style="stop-color:var(--bt-leaf_deep,#5aa651)" /></linearGradient><linearGradient id="bamti-furniture-plant-default0-g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--bt-leaf,#9ad57a)" /><stop offset="1" style="stop-color:var(--bt-leaf_deep,#5aa651)" /></linearGradient><linearGradient id="bamti-furniture-plant-default0-g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--bt-leaf,#9ad57a)" /><stop offset="1" style="stop-color:var(--bt-leaf_deep,#5aa651)" /></linearGradient><linearGradient id="bamti-furniture-plant-default0-g4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--bt-leaf,#9ad57a)" /><stop offset="1" style="stop-color:var(--bt-leaf_deep,#5aa651)" /></linearGradient><linearGradient id="bamti-furniture-plant-default0-g5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--bt-leaf,#9ad57a)" /><stop offset="1" style="stop-color:var(--bt-leaf_deep,#5aa651)" /></linearGradient></defs>
+  <path d="M40,95.44 L77.12,114 L40,132.56 L2.88,114 Z" fill-opacity="0.16" style="fill:var(--bt-shadow,#3a2c33)" />
+  <ellipse cx="24" cy="66" rx="9.92" ry="16" fill="url(#bamti-furniture-plant-default0-g1)" stroke-width="2.6" transform="rotate(-30 24 66)" style="stroke:var(--bt-ink,#5b4636)" />
+  <path d="M40,84 L27.2,69.6" fill="none" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--bt-leaf_deep,#5aa651)" />
+  <ellipse cx="54" cy="58" rx="11.16" ry="18" fill="url(#bamti-furniture-plant-default0-g2)" stroke-width="2.6" transform="rotate(25 54 58)" style="stroke:var(--bt-ink,#5b4636)" />
+  <path d="M40,84 L51.2,63.2" fill="none" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--bt-leaf_deep,#5aa651)" />
+  <ellipse cx="40" cy="42" rx="9.92" ry="16" fill="url(#bamti-furniture-plant-default0-g3)" stroke-width="2.6" style="stroke:var(--bt-ink,#5b4636)" />
+  <path d="M40,84 L40,50.4" fill="none" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--bt-leaf_deep,#5aa651)" />
+  <ellipse cx="18" cy="44" rx="7.44" ry="12" fill="url(#bamti-furniture-plant-default0-g4)" stroke-width="2.6" transform="rotate(-50 18 44)" style="stroke:var(--bt-ink,#5b4636)" />
+  <path d="M40,84 L22.4,52" fill="none" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--bt-leaf_deep,#5aa651)" />
+  <ellipse cx="64" cy="38" rx="7.44" ry="12" fill="url(#bamti-furniture-plant-default0-g5)" stroke-width="2.6" transform="rotate(45 64 38)" style="stroke:var(--bt-ink,#5b4636)" />
+  <path d="M40,84 L59.2,47.2" fill="none" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--bt-leaf_deep,#5aa651)" />
+  <path d="M28.23,84 L28.23,114 A11.77,5.88 0 0 0 51.77,114 L51.77,84 Z" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" style="fill:var(--bt-coral,#ff8a7a);stroke:var(--bt-ink,#5b4636)" />
+  <ellipse cx="40" cy="84" rx="11.77" ry="5.88" stroke-width="3" style="fill:var(--bt-wood_deep,#96643f);stroke:var(--bt-ink,#5b4636)" />
+  <path d="M31.68,108.66 C24.68,103.66 28.18,98.66 31.68,102.41 C35.18,98.66 38.68,103.66 31.68,108.66 Z" fill-opacity="0.8" style="fill:var(--bt-white,#ffffff)" />
+</svg>

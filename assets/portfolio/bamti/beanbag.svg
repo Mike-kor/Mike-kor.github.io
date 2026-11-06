@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 96" width="80" height="96">
+  <defs><radialGradient id="bamti-furniture-beanbag-default0-g1" cx="0.35" cy="0.3" r="0.9"><stop offset="0" style="stop-color:var(--bt-fab_1,#ffb3c7)" /><stop offset="1" style="stop-color:var(--bt-fab_2,#ec84a2)" /></radialGradient></defs>
+  <path d="M40,53.44 L77.12,72 L40,90.56 L2.88,72 Z" fill-opacity="0.16" style="fill:var(--bt-shadow,#3a2c33)" />
+  <path d="M10,74 C5.67,68 10,57 14,50 C18,43 26.67,34 34,32 C41.33,30 52,33 58,38 C64,43 68.67,55 70,62 C71.33,69 71,76 66,80 C61,84 49.33,87 40,86 C30.67,85 14.33,80 10,74 Z" fill="url(#bamti-furniture-beanbag-default0-g1)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--bt-ink,#5b4636)" />
+  <path d="M22,64 C25,65 34,70.33 40,70 C46,69.67 55,63.33 58,62" fill="none" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" style="stroke:var(--bt-fab_2,#ec84a2)" />
+</svg>
