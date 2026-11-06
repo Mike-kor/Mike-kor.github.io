@@ -1,0 +1,315 @@
+[
+  {
+    "slug": "numeron",
+    "name": "NUMERON: 숫자 생존 퍼즐",
+    "short": "NUMERON",
+    "stage": "Android · 비공개 테스트",
+    "platform": "android",
+    "art": "/assets/portfolio/numeron.jpg",
+    "hook": "숫자를 연결해 목표식을 만들고, 적의 파도에서 별을 지켜내세요.",
+    "audience": "수학 퍼즐과 실시간 생존 전투, 전술 빌드를 함께 즐기는 플레이어",
+    "description": "목표 숫자에 맞는 식을 만들어 적을 격파하는 실시간 산술 생존 퍼즐입니다. 코어를 방어하고, 전술 모듈을 선택해 항성계와 보스에 도전합니다.",
+    "loop": "목표값 확인 → 숫자 노드 연결 → 적 격파와 코어 방어 → 전술 모듈 선택 → 다음 웨이브",
+    "facts": [
+      "덧셈·뺄셈·곱셈·나눗셈으로 식 완성",
+      "숫자 노드 연결형 실시간 전투",
+      "항성 지도, 보스 코어, 무한 생존"
+    ],
+    "keywords": [
+      "NUMERON 숫자 생존 퍼즐",
+      "실시간 산술 퍼즐 게임",
+      "숫자 노드 게임",
+      "우주 생존 퍼즐"
+    ],
+    "play": null,
+    "email": "NUMERON 테스트 참여 문의",
+    "storeShort": "숫자식을 완성해 적의 파도에서 별을 지키는 실시간 생존 퍼즐."
+  },
+  {
+    "slug": "shooter-survival",
+    "name": "슈터 서바이벌",
+    "short": "SHOOTER SURVIVAL",
+    "stage": "Android · 비공개 테스트 / 웹 플레이 가능",
+    "platform": "android web",
+    "art": "/assets/portfolio/shooter.jpg",
+    "hook": "네온 전장에서 무기를 진화시키고, 보스 웨이브까지 버텨보세요.",
+    "audience": "짧은 세션의 슈팅 액션과 로그라이크 성장을 찾는 플레이어",
+    "description": "자동 조준과 무기 진화로 네온 전장을 돌파하는 생존 액션 게임입니다. 스테이지와 보스, 끝없는 생존 모드를 담았습니다.",
+    "loop": "전장 진입 → 경험치 수집 → 무기 진화 → 보스 돌파 → 다음 빌드 도전",
+    "facts": [
+      "6개 스테이지와 무한 생존 모드",
+      "12종 무기와 진화 빌드",
+      "8종 파일럿과 보스 전투"
+    ],
+    "keywords": [
+      "슈터 서바이벌",
+      "네온 생존 슈팅 게임",
+      "무기 진화 서바이벌",
+      "웹 슈팅 게임"
+    ],
+    "play": null,
+    "web": "https://shooter-survival.vercel.app",
+    "email": "슈터 서바이벌 테스트 문의",
+    "storeShort": "자동 조준 생존 슈터! 무기를 진화시키고 네온 전장과 보스를 돌파하세요."
+  },
+  {
+    "slug": "goldilocks",
+    "name": "골디락스: 행성 개척 전략",
+    "short": "GOLDILOCKS",
+    "stage": "Android · 비공개 테스트",
+    "platform": "android",
+    "art": "/assets/portfolio/goldilocks.jpg",
+    "hook": "살아갈 수 있는 행성을 만들고, 방어선을 세워 확장하세요.",
+    "audience": "우주 전략과 기지 건설, 행성 개척을 즐기는 플레이어",
+    "description": "얼어붙거나 뜨거운 외계 행성을 살기 좋은 행성으로 바꾸고 침략을 막아내는 방치형 우주 전략 게임입니다. 행성의 환경 변화와 은하 개척을 이어갑니다.",
+    "loop": "행성 환경 성장 → 자원과 과학 카드 확인 → 침략 방어 → 새 행성 개척",
+    "facts": [
+      "환경 수치에 따라 변하는 행성",
+      "행성 위에서 벌어지는 방어전",
+      "실제 우주 과학 주제를 다루는 도감"
+    ],
+    "keywords": [
+      "우주 방치형 전략 게임",
+      "행성 테라포밍 게임",
+      "행성 방어 게임",
+      "우주 과학 도감 게임"
+    ],
+    "play": null,
+    "email": "골디락스 테스트 참여 문의",
+    "storeShort": "외계 행성을 테라포밍하고 침략을 막아 은하를 개척하세요."
+  },
+  {
+    "slug": "tome-of-return",
+    "name": "귀환의 서",
+    "short": "TOME OF RETURN",
+    "stage": "Android · 비공개 테스트",
+    "platform": "android",
+    "art": "/assets/portfolio/return.jpg",
+    "hook": "검과 주문서가 기다리는 세로형 판타지 세계로 돌아오세요.",
+    "audience": "판타지 액션 RPG와 동료 수집, 캐릭터 성장을 좋아하는 플레이어",
+    "description": "직접 조작하는 세로형 판타지 액션 RPG입니다. 동료를 모으고 전투와 성장의 여정을 이어갑니다.",
+    "loop": "모험 준비 → 직접 전투 → 동료와 장비 성장 → 새로운 지역 도전",
+    "facts": [
+      "세로형 직접 조작 전투",
+      "동료 수집과 성장",
+      "검과 주문서의 판타지 세계"
+    ],
+    "keywords": [
+      "세로형 액션 RPG",
+      "판타지 모바일 RPG",
+      "동료 수집 RPG",
+      "직접 조작 RPG"
+    ],
+    "play": null,
+    "email": "귀환의 서 테스트 참여 문의",
+    "storeShort": "검과 주문서의 세계를 탐험하는 세로형 판타지 액션 RPG."
+  },
+  {
+    "slug": "snowball-apocalypse",
+    "name": "눈덩이 대재앙",
+    "short": "SNOWBALL APOCALYPSE",
+    "stage": "Android · 비공개 테스트",
+    "platform": "android",
+    "art": "/assets/portfolio/snowball.jpg",
+    "hook": "작은 눈덩이가 어디까지 커질 수 있을까요?",
+    "audience": "물리 기반 성장 시뮬레이션과 편안한 관찰형 게임을 좋아하는 플레이어",
+    "description": "눈덩이가 굴러가며 점점 커지는 과정을 직접 키우고 관찰하는 물리 기반 성장 시뮬레이션입니다.",
+    "loop": "눈덩이 굴리기 → 크기 성장 관찰 → 더 큰 성장 목표 도전",
+    "facts": [
+      "굴러가며 커지는 눈덩이",
+      "물리 기반 움직임",
+      "성장 과정을 지켜보는 플레이"
+    ],
+    "keywords": [
+      "눈덩이 게임",
+      "성장 시뮬레이션 게임",
+      "물리 게임 모바일",
+      "힐링 관찰 게임"
+    ],
+    "play": null,
+    "email": "눈덩이 대재앙 테스트 문의",
+    "storeShort": "눈덩이를 굴려 키우고 끝없이 성장하는 과정을 지켜보세요."
+  },
+  {
+    "slug": "mukgeom",
+    "name": "묵검: 천마의 길",
+    "short": "MUKGEOM",
+    "stage": "Android · 무협 콘텐츠 전환 중",
+    "platform": "android",
+    "art": "/assets/portfolio/mukgeom.jpg",
+    "hook": "이름 없는 무인이 묵검을 만나 천마의 길에 오릅니다.",
+    "audience": "무협 서사와 수련 성장, 세로형 RPG에 관심 있는 플레이어",
+    "description": "묵검과 검 속의 혼을 중심에 둔 무협 모바일 RPG 프로젝트입니다. 현재 기반 시스템을 무협 세계관과 콘텐츠로 전환하고 있습니다.",
+    "loop": "개발 방향: 이야기의 선택 → 수련과 전투 → 새 경지로 성장 → 회귀해 다시 도전",
+    "facts": [
+      "묵검을 둘러싼 오리지널 무협 서사",
+      "무협 세계관·직업·전투 콘텐츠 전환 중",
+      "Android 프로젝트 — 플레이 정보는 개발에 따라 바뀔 수 있음"
+    ],
+    "keywords": [
+      "묵검 천마의 길",
+      "무협 모바일 RPG",
+      "무협 성장 게임",
+      "천마 무협 게임"
+    ],
+    "play": null,
+    "email": "묵검 테스트 참여 문의",
+    "storeShort": "묵검을 만나 천마의 길을 걷는 무협 RPG 프로젝트."
+  },
+  {
+    "slug": "isekai-idol",
+    "name": "이세계 아이돌 키우기",
+    "short": "ISEKAI IDOL",
+    "stage": "Android · 비공개 테스트",
+    "platform": "android",
+    "art": "/assets/portfolio/idol.jpg",
+    "hook": "무대를 키우고 팬을 모아 이세계의 위협에 맞서세요.",
+    "audience": "아이돌 육성과 방치형 성장, 픽셀 RPG를 좋아하는 플레이어",
+    "description": "노래와 무대로 팬을 모으고 이세계 몬스터에 맞서는 아이돌 육성 RPG입니다.",
+    "loop": "아이돌 육성 → 무대와 팬 성장 → 이세계 전투 → 더 큰 공연 준비",
+    "facts": [
+      "아이돌 캐릭터 육성",
+      "무대와 팬 모으기",
+      "이세계 몬스터 전투"
+    ],
+    "keywords": [
+      "아이돌 육성 게임",
+      "이세계 RPG",
+      "방치형 아이돌 게임",
+      "픽셀 아이돌 RPG"
+    ],
+    "play": null,
+    "email": "이세계 아이돌 키우기 테스트 문의",
+    "storeShort": "아이돌을 키워 무대에 세우고 이세계 몬스터에 맞서는 RPG."
+  },
+  {
+    "slug": "apt-market",
+    "name": "집값의 신: 한 달만 더",
+    "short": "APT. MARKET",
+    "stage": "Android · 비공개 테스트",
+    "platform": "android",
+    "art": "/assets/portfolio/apt-market.jpg",
+    "hook": "도시의 흐름을 읽고, 한 달만 더 버틸 투자 결정을 내려보세요.",
+    "audience": "부동산·경제 시뮬레이션과 선택형 경영 게임을 즐기는 플레이어",
+    "description": "가상 도시의 시장 흐름을 읽고 100개 스테이지에서 부동산 포트폴리오를 만들어가는 경제 시뮬레이션입니다.",
+    "loop": "시장 정보 확인 → 투자 결정 → 결과 분석 → 다음 스테이지 전략 수정",
+    "facts": [
+      "가상 도시 부동산 시장",
+      "100개 스테이지",
+      "선택이 결과로 이어지는 경제 시뮬레이션"
+    ],
+    "keywords": [
+      "부동산 시뮬레이션 게임",
+      "경제 모바일 게임",
+      "투자 경영 게임",
+      "아파트 게임"
+    ],
+    "play": null,
+    "email": "집값의 신 테스트 참여 문의",
+    "storeShort": "가상 도시의 시장을 읽고 100개 스테이지 투자 전략을 세우세요."
+  },
+  {
+    "slug": "quitverse",
+    "name": "퇴사 좀 시켜줘!",
+    "short": "QUITVERSE",
+    "stage": "Android · 테스트 준비 중",
+    "platform": "android",
+    "art": "/assets/portfolio/quitverse.jpg",
+    "hook": "퇴사하려던 사장이 회사를 키워 은하계까지 확장합니다.",
+    "audience": "방치형 경영과 숫자 성장, 우주 테마를 좋아하는 플레이어",
+    "description": "회사를 키워 은하계까지 확장하는 방치형 경제 시뮬레이션입니다. 현재 테스트를 준비 중입니다.",
+    "loop": "사업 확장 → 수익 성장 → 새 행성 개척 → 더 큰 회사 운영",
+    "facts": [
+      "방치형 경제 성장",
+      "회사 운영과 확장",
+      "우주를 무대로 한 시뮬레이션"
+    ],
+    "keywords": [
+      "방치형 경영 게임",
+      "우주 경제 게임",
+      "회사 키우기 게임",
+      "방치형 시뮬레이션"
+    ],
+    "play": null,
+    "email": "퇴사 좀 시켜줘 소식 문의",
+    "storeShort": "퇴사하려던 사장이 우주를 인수했다? 회사를 키우는 방치형 경영."
+  },
+  {
+    "slug": "god-statistics",
+    "name": "신과 통계",
+    "short": "GOD & STATISTICS",
+    "stage": "Android · 테스트 준비 중",
+    "platform": "android",
+    "art": "/assets/portfolio/god-statistics.svg",
+    "hook": "오방기와 엽전, 만세력 통계로 오늘의 이야기를 풀어봅니다.",
+    "audience": "한국 전통 상징과 운세 테마의 인터랙티브 콘텐츠를 좋아하는 성인",
+    "description": "만세력 통계와 오방기·엽전·산통 인터랙션을 엮은 운세 엔터테인먼트 프로젝트입니다. 현재 테스트를 준비 중입니다.",
+    "loop": "질문 고르기 → 상징 도구와 상호작용 → 결과와 해석 살펴보기",
+    "facts": [
+      "한국 전통 상징을 활용한 인터랙션",
+      "만세력 통계 테마",
+      "엔터테인먼트 목적의 운세 콘텐츠"
+    ],
+    "keywords": [
+      "운세 인터랙티브 앱",
+      "만세력 통계 콘텐츠",
+      "오방기 운세 게임",
+      "전통 운세 엔터테인먼트"
+    ],
+    "play": null,
+    "email": "신과 통계 테스트 소식 문의",
+    "storeShort": "만세력 통계와 전통 상징으로 풀어보는 운세 엔터테인먼트."
+  },
+  {
+    "slug": "tail-pivot",
+    "name": "말랑꼬리: 포근펫 키우기",
+    "short": "TAIL PIVOT",
+    "stage": "Android · 비공개 테스트",
+    "platform": "android",
+    "art": "/assets/portfolio/tail-pivot.jpg",
+    "hook": "작은 펫과 함께 일하고, 모험하고, 나만의 방을 꾸며요.",
+    "audience": "힐링 펫 수집과 방 꾸미기, 가벼운 성장 게임을 찾는 플레이어",
+    "description": "작은 펫과 함께 일하고 모험하며, 가구와 장난감으로 아늑한 방을 꾸미는 힐링 육성 게임입니다.",
+    "loop": "펫과 하루 보내기 → 일과 모험으로 모으기 → 가구 수집 → 방 꾸미기",
+    "facts": [
+      "포근한 펫 수집과 육성",
+      "일과 모험을 통한 성장",
+      "가구와 장난감으로 방 꾸미기"
+    ],
+    "keywords": [
+      "힐링 펫 키우기 게임",
+      "방 꾸미기 모바일 게임",
+      "펫 수집 게임",
+      "포근한 육성 게임"
+    ],
+    "play": null,
+    "email": "말랑꼬리 테스트 참여 문의",
+    "storeShort": "작고 말랑한 펫 친구들과 놀고, 포근한 우리 집을 꾸며요!"
+  },
+  {
+    "slug": "bamtiworld",
+    "name": "밤티월드",
+    "short": "BAMTI WORLD",
+    "stage": "웹에서 플레이 가능",
+    "platform": "web",
+    "art": "/assets/portfolio/bamti-sunset.jpg",
+    "hook": "나만의 미니룸을 꾸미고, 친구의 방명록에 흔적을 남겨요.",
+    "audience": "미니홈피 감성과 아바타·방 꾸미기, 친구와의 느슨한 소통을 좋아하는 사람",
+    "description": "나만의 미니룸을 꾸미고 미니미와 친구들의 방명록으로 이어지는 작은 웹 세계입니다.",
+    "loop": "미니룸 꾸미기 → 미니미와 둘러보기 → 친구 방 방문 → 방명록 남기기",
+    "facts": [
+      "웹에서 바로 만나는 미니홈피 세계",
+      "미니룸과 가구 꾸미기",
+      "친구 방명록과 미니미"
+    ],
+    "keywords": [
+      "웹 미니홈피",
+      "온라인 방 꾸미기",
+      "미니룸 꾸미기",
+      "친구 방명록 웹 게임"
+    ],
+    "play": null,
+    "web": "https://bamtiworld.vercel.app",
+    "email": "밤티월드 의견 보내기"
+  }
+]
