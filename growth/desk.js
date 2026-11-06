@@ -13,6 +13,7 @@
   ];
   let apps = [], channel = 'naver', timer;
   const today = new Date(), dayKey = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+  const dayOfYear = Math.floor((Date.UTC(today.getFullYear(),today.getMonth(),today.getDate())-Date.UTC(today.getFullYear(),0,0))/86400000);
   $('#today-label').textContent = new Intl.DateTimeFormat('ko-KR',{year:'numeric',month:'long',day:'numeric',weekday:'long'}).format(today);
   const currentApp = () => apps.find(a => a.slug === appSelect.value) || apps[0];
   const trackLink = (app, source=channel) => `${location.origin}/go/${app.slug}/?utm_source=${encodeURIComponent(source)}&utm_medium=${source==='naver'?'organic_social':source==='search'?'organic_search':source==='play'?'play_store':'social'}&utm_campaign=${encodeURIComponent(app.slug+'-'+dayKey)}&utm_content=${encodeURIComponent(source+'-'+dayKey)}`;
@@ -23,13 +24,13 @@
   }
   function fallback(text, done) { const t=document.createElement('textarea');t.value=text;t.style.position='fixed';t.style.opacity='0';document.body.append(t);t.select();try{document.execCommand('copy');done()}catch(_){toast('복사할 수 없습니다. 초안을 길게 눌러 복사하세요.')}t.remove(); }
   function toast(message){const el=$('#toast');el.textContent=message;el.classList.add('show');clearTimeout(timer);timer=setTimeout(()=>el.classList.remove('show'),1800)}
-  function drafts(app){const url=trackLink(app);const tags=tagList(app);return {
-    naver:{title:`${app.name} — ${app.hook}`,body:`${app.hook}\n\n${app.description}\n\n플레이 흐름은 ${app.loop}입니다.\n\n이런 분께 잘 맞아요: ${app.audience}.\n\n${app.facts.map(x=>'• '+x).join('\n')}\n\n현재 단계: ${app.stage}\n앱 소개와 소식: ${url}\n\n${tags}`},
-    instagram:{title:`${app.short} / 오늘의 플레이`,body:`${app.hook}\n\n${app.description}\n\n${app.facts.map(x=>'✦ '+x).join('\n')}\n\n자세한 소개와 플레이 링크는 프로필 링크에서 확인하세요.\n${url}\n\n${tags} #인당소프트 #모바일게임`},
-    tiktok:{title:`${app.name} | 15초 플레이 영상`,body:`[0–2초 / 첫 장면을 바로 보여주기]\n자막: “${app.hook}”\n\n[2–10초 / 실제 플레이 장면 2~3개]\n내레이션: ${app.loop}\n화면 자막: ${app.facts.join(' · ')}\n\n[10–15초 / 마무리]\n자막: “${app.name} 더 보기”\n프로필 링크: ${url}\n\n설명: ${app.description}\n${tags} #게임추천 #게임영상`},
-    x:{title:`${app.name} | INDANG SOFT`,body:`${app.hook}\n${app.description}\n\n${url}\n\n${tags}`},
-    shorts:{title:`${app.hook} | ${app.name} #shorts`,body:`[0–3초 / 훅]\n화면 소재: https://mike-kor.github.io${app.art}\n내레이션: “${app.hook}”\n\n[3–10초 / 플레이 흐름]\n화면: ${app.loop}\n자막: ${app.facts.join(' · ')}\n\n[10–15초 / 행동 유도]\n내레이션: “${app.name}의 세계를 만나보세요.”\n화면 자막: ${app.stage}\n링크: ${url}`},
-    community:{title:`${app.name}: 이런 플레이 스타일 좋아하시나요?`,body:`요즘 ${app.name}을 만들고 있습니다.\n\n${app.description}\n\n플레이 흐름은 ${app.loop} 쪽이에요.\n\n${app.stage} 상태고, 소개 페이지에 현재 정보를 정리했습니다: ${url}\n\n여러분은 이 장르에서 어떤 순간이 가장 재미있나요?`},
+  function drafts(app){const url=trackLink(app);const tags=tagList(app);const angle=app.facts[(dayOfYear-1)%app.facts.length];return {
+    naver:{title:`${app.name} — ${angle}`,body:`${app.hook}\n\n${app.description}\n\n오늘의 포인트: ${angle}.\n플레이 흐름은 ${app.loop}입니다.\n\n이런 분께 잘 맞아요: ${app.audience}.\n\n${app.facts.map(x=>'• '+x).join('\n')}\n\n현재 단계: ${app.stage}\n앱 소개와 소식: ${url}\n\n${tags}`},
+    instagram:{title:`${app.short} / ${angle}`,body:`${app.hook}\n\n오늘의 플레이 포인트: ${angle}.\n${app.description}\n\n${app.facts.map(x=>'✦ '+x).join('\n')}\n\n자세한 소개와 플레이 링크는 프로필 링크에서 확인하세요.\n${url}\n\n${tags} #인당소프트 #모바일게임`},
+    tiktok:{title:`${app.name} | 15초 플레이 영상`,body:`[0–2초 / 첫 장면을 바로 보여주기]\n자막: “${app.hook}”\n\n[2–10초 / 실제 플레이 장면 2~3개]\n오늘의 장면: ${angle}\n내레이션: ${app.loop}\n\n[10–15초 / 마무리]\n자막: “${app.name} 더 보기”\n프로필 링크: ${url}\n\n설명: ${app.description}\n${tags} #게임추천 #게임영상`},
+    x:{title:`${app.name} | INDANG SOFT`,body:`${app.hook}\n오늘의 포인트: ${angle}.\n${url}\n\n${tags}`},
+    shorts:{title:`${app.hook} | ${app.name} #shorts`,body:`[0–3초 / 훅]\n화면 소재: https://mike-kor.github.io${app.art}\n내레이션: “${app.hook}”\n\n[3–10초 / 오늘의 포인트]\n화면: ${angle}\n플레이 흐름: ${app.loop}\n\n[10–15초 / 행동 유도]\n내레이션: “${app.name}의 세계를 만나보세요.”\n화면 자막: ${app.stage}\n링크: ${url}`},
+    community:{title:`${app.name}: ${angle} 같은 플레이 좋아하시나요?`,body:`요즘 ${app.name}을 만들고 있습니다.\n\n${app.description}\n\n오늘 소개하고 싶은 포인트는 ${angle}입니다.\n플레이 흐름은 ${app.loop} 쪽이에요.\n\n${app.stage} 상태고, 소개 페이지에 현재 정보를 정리했습니다: ${url}\n\n여러분은 이 장르에서 어떤 순간이 가장 재미있나요?`},
     search:{title:`${app.name} | INDANG SOFT`,body:`검색 제목\n${app.name} — ${app.hook}\n\n검색 설명\n${app.description} ${app.stage}.\n\n핵심 검색어\n${app.keywords.join(' · ')}\n\n색인 주소\nhttps://mike-kor.github.io/go/${app.slug}/\n\n체크\n□ Google Search Console에서 sitemap.xml 제출·색인 상태 확인\n□ Naver Search Advisor에서 사이트 등록·수집 현황 확인\n□ 실제 앱 화면과 설명이 일치하는지 검토\n□ 앱 상태가 바뀌면 전용 랜딩과 링크를 갱신`},
     play:{title:app.platform.includes('android')?app.name:`${app.name} — Google Play 대상 아님`,body:app.platform.includes('android')?`Google Play 앱 이름\n${app.name}\n\n짧은 설명 (${(app.storeShort||app.hook).length}/80자)\n${app.storeShort||app.hook}\n\n자세한 설명 초안\n${app.hook}\n\n${app.description}\n\n주요 특징\n${app.facts.map(x=>'• '+x).join('\n')}\n\n이런 분께\n${app.audience}\n\n현재 단계: ${app.stage}\n전용 링크: ${url}\n\n출시 전 점검\n□ 앱 실제 기능과 문구·스크린샷 일치\n□ 테스트/출시 상태와 국가·언어 타깃 확인\n□ 공개 Play 링크가 준비된 뒤에만 설치 버튼 게시`:`이 프로젝트는 웹에서 플레이하는 서비스입니다. Google Play 앱 등록정보는 만들지 말고, 웹 랜딩·검색 미리보기와 ${url} 링크를 사용하세요.`}
   };}

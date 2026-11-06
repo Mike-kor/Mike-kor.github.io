@@ -5,7 +5,7 @@
 1. Open `/growth/` and select one app for today's campaign.
 2. Review the Naver Blog, Google/Naver SEO, Google Play ASO, Instagram/Reels, TikTok, Shorts, X/Threads, and Facebook/community drafts. Edit anything that does not match the latest build or release stage.
 3. Copy the app-specific URL. Each share link points to `/go/<app>/` and labels the source, medium, campaign day, and post placement with UTM parameters.
-4. Open a channel, paste or review its draft, attach a real gameplay capture, and publish manually.
+4. Open a channel, paste or review its draft, attach a real gameplay capture, and publish manually. The content angle rotates through the app's feature list by date, so each new day highlights a different feature.
 5. Mark the six daily tasks as complete. The checklist is saved in local browser storage for that device only.
 
 ## Portfolio source of truth
