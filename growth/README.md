@@ -10,7 +10,7 @@
 
 ## Portfolio source of truth
 
-`apps.json` holds each product's current public description, stage, audience, key features, search terms, artwork, and known destination. Keep the project's own README and store listing as the factual source, then update this file when a project or release stage changes. Run `node growth/build-campaign-pages.mjs` to regenerate each indexable `/go/<slug>/` landing page.
+`apps.json` holds each product's current public description, stage, audience, key features, search terms, artwork, and known destination. Keep the project's own README and store listing as the factual source, then update this file when a project or release stage changes. Run `node growth/build-campaign-pages.mjs` to regenerate each indexable `/go/<slug>/` landing page and `node growth/build-install-pages.mjs` to regenerate each share-ready `/install/<slug>/` splash page. Campaign links copied in this desk point to the install splash; SEO drafts continue to point to the detailed `/go/` pages.
 
 The shared campaign pages use unique titles, descriptions, canonical URLs, Open Graph images, and `VideoGame` structured data. They do not claim a public Play listing when the app is in closed testing. The two playable web projects lead to the live web game; Android test projects lead to a test or release inquiry.
 
