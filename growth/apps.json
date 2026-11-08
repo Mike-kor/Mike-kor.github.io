@@ -11,9 +11,9 @@
     "description": "목표 숫자에 맞는 식을 만들어 적을 격파하는 실시간 산술 생존 퍼즐입니다. 코어를 방어하고, 전술 모듈을 선택해 항성계와 보스에 도전합니다.",
     "loop": "목표값 확인 → 숫자 노드 연결 → 적 격파와 코어 방어 → 전술 모듈 선택 → 다음 웨이브",
     "facts": [
-      "덧셈·뺄셈·곱셈·나눗셈으로 식 완성",
-      "숫자 노드 연결형 실시간 전투",
-      "항성 지도, 보스 코어, 무한 생존"
+      "더하기·빼기·곱하기로 목표 수식 완성",
+      "숫자 노드를 골라 적을 터뜨리는 실시간 전투",
+      "코어를 지키며 웨이브와 보스에 도전"
     ],
     "keywords": [
       "NUMERON 숫자 생존 퍼즐",
@@ -23,7 +23,8 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.mikekor.numeron",
     "email": "NUMERON 테스트 참여 문의",
-    "storeShort": "숫자식을 완성해 적의 파도에서 별을 지키는 실시간 생존 퍼즐."
+    "storeShort": "숫자식을 완성해 적의 파도에서 별을 지키는 실시간 생존 퍼즐.",
+    "icon": "/assets/app-icons/numeron.png"
   },
   {
     "slug": "shooter-survival",
@@ -50,7 +51,8 @@
     "play": "https://play.google.com/store/apps/details?id=com.shootersurvival.app",
     "web": "https://shooter-survival.vercel.app",
     "email": "슈터 서바이벌 테스트 문의",
-    "storeShort": "자동 조준 생존 슈터! 무기를 진화시키고 네온 전장과 보스를 돌파하세요."
+    "storeShort": "자동 조준 생존 슈터! 무기를 진화시키고 네온 전장과 보스를 돌파하세요.",
+    "icon": "/assets/app-icons/shooter-survival.png"
   },
   {
     "slug": "goldilocks",
@@ -76,7 +78,8 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.goldilocks",
     "email": "골디락스 테스트 참여 문의",
-    "storeShort": "외계 행성을 테라포밍하고 침략을 막아 은하를 개척하세요."
+    "storeShort": "외계 행성을 테라포밍하고 침략을 막아 은하를 개척하세요.",
+    "icon": "/assets/app-icons/goldilocks.png"
   },
   {
     "slug": "tome-of-return",
@@ -84,15 +87,15 @@
     "short": "TOME OF RETURN",
     "stage": "Google Play · 출시",
     "platform": "android",
-    "art": "/assets/portfolio/return.jpg",
-    "hook": "검과 주문서가 기다리는 세로형 판타지 세계로 돌아오세요.",
+    "art": "/assets/app-icons/tome-of-return.png",
+    "hook": "사냥터를 탐험하고, 전리품을 챙겨 다음 전투를 준비하세요.",
     "audience": "판타지 액션 RPG와 동료 수집, 캐릭터 성장을 좋아하는 플레이어",
-    "description": "직접 조작하는 세로형 판타지 액션 RPG입니다. 동료를 모으고 전투와 성장의 여정을 이어갑니다.",
-    "loop": "모험 준비 → 직접 전투 → 동료와 장비 성장 → 새로운 지역 도전",
+    "description": "기사·마법사·요정 중 하나를 키우며 사냥터를 탐험하는 세로형 판타지 RPG입니다. 직접 전투와 자동 전투를 선택하고, 전리품 판매·물약 관리·장비 강화로 더 위험한 지역에 도전합니다.",
+    "loop": "마을에서 정비 → 사냥터 탐색과 전투 → 전리품 획득 → 물약·무게를 확인해 귀환 → 장비 강화와 다음 사냥터 준비",
     "facts": [
-      "세로형 직접 조작 전투",
-      "동료 수집과 성장",
-      "검과 주문서의 판타지 세계"
+      "기사·마법사·요정 직업과 수동 스킬",
+      "직접 전투 또는 자동 사냥, 자원 관리와 귀환",
+      "전리품 판매·장비 강화·새 사냥터 해금"
     ],
     "keywords": [
       "세로형 액션 RPG",
@@ -102,7 +105,8 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.vectormud.afterglow",
     "email": "귀환의 서 테스트 참여 문의",
-    "storeShort": "검과 주문서의 세계를 탐험하는 세로형 판타지 액션 RPG."
+    "storeShort": "사냥터를 탐험하고 전리품을 모아, 장비를 강화하며 판타지 세계를 돌파하세요.",
+    "icon": "/assets/app-icons/tome-of-return.png"
   },
   {
     "slug": "snowball-apocalypse",
@@ -110,15 +114,15 @@
     "short": "SNOWBALL APOCALYPSE",
     "stage": "Android · 비공개 테스트",
     "platform": "android",
-    "art": "/assets/portfolio/snowball.jpg",
-    "hook": "작은 눈덩이가 어디까지 커질 수 있을까요?",
+    "art": "/assets/app-icons/snowball-apocalypse.png",
+    "hook": "눈덩이를 굴려 키우고, 길을 막는 나무와 건물을 산산이 부수세요.",
     "audience": "물리 기반 성장 시뮬레이션과 편안한 관찰형 게임을 좋아하는 플레이어",
-    "description": "눈덩이가 굴러가며 점점 커지는 과정을 직접 키우고 관찰하는 물리 기반 성장 시뮬레이션입니다.",
-    "loop": "눈덩이 굴리기 → 크기 성장 관찰 → 더 큰 성장 목표 도전",
+    "description": "설산에서 눈덩이를 굴려 눈을 모으고, 충돌과 파괴로 덩치를 키우는 2D 물리 액션 게임입니다. 연구소에서 흡수력·내구도·추진력을 강화해 더 큰 장애물과 무대에 도전합니다.",
+    "loop": "설산에서 굴리기 → 눈과 장애물 흡수 → 나무·오두막 파괴 → 보상 획득 → 연구소 업그레이드 → 더 큰 눈사태에 도전",
     "facts": [
-      "굴러가며 커지는 눈덩이",
-      "물리 기반 움직임",
-      "성장 과정을 지켜보는 플레이"
+      "지면을 구르며 커지는 물리 기반 눈덩이",
+      "나무·오두막 등 장애물과 충돌하고 부수기",
+      "흡수력·내구도·추진력 업그레이드와 기록 도전"
     ],
     "keywords": [
       "눈덩이 게임",
@@ -128,7 +132,8 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.drawsnowball",
     "email": "눈덩이 대재앙 테스트 문의",
-    "storeShort": "눈덩이를 굴려 키우고 끝없이 성장하는 과정을 지켜보세요."
+    "storeShort": "눈덩이를 굴려 키우고 나무와 건물을 부수세요. 연구소 업그레이드로 더 큰 파괴에 도전하세요.",
+    "icon": "/assets/app-icons/snowball-apocalypse.png"
   },
   {
     "slug": "mukgeom",
@@ -139,12 +144,12 @@
     "art": "/assets/portfolio/mukgeom.jpg",
     "hook": "이름 없는 무인이 묵검을 만나 천마의 길에 오릅니다.",
     "audience": "무협 서사와 수련 성장, 세로형 RPG에 관심 있는 플레이어",
-    "description": "묵검과 검 속의 혼을 중심에 둔 무협 모바일 RPG 프로젝트입니다. 현재 기반 시스템을 무협 세계관과 콘텐츠로 전환하고 있습니다.",
-    "loop": "개발 방향: 이야기의 선택 → 수련과 전투 → 새 경지로 성장 → 회귀해 다시 도전",
+    "description": "귀환의 서의 사냥·전투·귀환·장비 강화 구조를 바탕으로 무협 세계관을 만드는 모바일 RPG 프로젝트입니다. 검 속의 혼 묵혼을 중심으로 이야기와 지역·직업·기술 콘텐츠를 전환하고 있습니다.",
+    "loop": "사냥과 전투 → 전리품 획득 → 마을 귀환과 장비 정비 → 무협 서사·지역·기술 콘텐츠 확장",
     "facts": [
-      "묵검을 둘러싼 오리지널 무협 서사",
-      "무협 세계관·직업·전투 콘텐츠 전환 중",
-      "Android 프로젝트 — 플레이 정보는 개발에 따라 바뀔 수 있음"
+      "사냥·전투·귀환·장비 강화 기반의 세로형 RPG",
+      "검 속의 혼 묵혼을 중심에 둔 오리지널 무협 서사",
+      "무협 지역·직업·기술 콘텐츠 전환 중"
     ],
     "keywords": [
       "묵검 천마의 길",
@@ -154,7 +159,8 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.chunma",
     "email": "묵검 테스트 참여 문의",
-    "storeShort": "묵검을 만나 천마의 길을 걷는 무협 RPG 프로젝트."
+    "storeShort": "검 속의 혼 묵혼과 천마의 길을 담은 무협 RPG 프로젝트.",
+    "icon": "/assets/app-icons/mukgeom.png"
   },
   {
     "slug": "isekai-idol",
@@ -165,12 +171,12 @@
     "art": "/assets/portfolio/idol.jpg",
     "hook": "무대를 키우고 팬을 모아 이세계의 위협에 맞서세요.",
     "audience": "아이돌 육성과 방치형 성장, 픽셀 RPG를 좋아하는 플레이어",
-    "description": "노래와 무대로 팬을 모으고 이세계 몬스터에 맞서는 아이돌 육성 RPG입니다.",
-    "loop": "아이돌 육성 → 무대와 팬 성장 → 이세계 전투 → 더 큰 공연 준비",
+    "description": "아이돌을 키워 무대와 팬덤을 넓히고, 이세계 몬스터와 보스에 맞서는 방치형 육성 RPG입니다. 탭 공격과 자동 전투, 스케줄 수익, 장비·코디 성장과 재데뷔를 이어갑니다.",
+    "loop": "아이돌 육성·스케줄 → 무대와 팬 성장 → 몬스터·보스 전투 → 장비·코디 강화 → 재데뷔와 더 큰 성장",
     "facts": [
-      "아이돌 캐릭터 육성",
-      "무대와 팬 모으기",
-      "이세계 몬스터 전투"
+      "탭 공격과 자동 전투, 보스 도전",
+      "스케줄·오프라인 수익과 팬 등급 성장",
+      "무기·액세서리 강화, 코디와 재데뷔"
     ],
     "keywords": [
       "아이돌 육성 게임",
@@ -180,7 +186,8 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.isekaiidol.app",
     "email": "이세계 아이돌 키우기 테스트 문의",
-    "storeShort": "아이돌을 키워 무대에 세우고 이세계 몬스터에 맞서는 RPG."
+    "storeShort": "아이돌을 키워 무대에 세우고 이세계 몬스터에 맞서는 RPG.",
+    "icon": "/assets/app-icons/isekai-idol.png"
   },
   {
     "slug": "apt-market",
@@ -191,12 +198,12 @@
     "art": "/assets/portfolio/apt-market.jpg",
     "hook": "도시의 흐름을 읽고, 한 달만 더 버틸 투자 결정을 내려보세요.",
     "audience": "부동산·경제 시뮬레이션과 선택형 경영 게임을 즐기는 플레이어",
-    "description": "가상 도시의 시장 흐름을 읽고 100개 스테이지에서 부동산 포트폴리오를 만들어가는 경제 시뮬레이션입니다.",
-    "loop": "시장 정보 확인 → 투자 결정 → 결과 분석 → 다음 스테이지 전략 수정",
+    "description": "가상 도시에서 매달 시장을 읽고 부동산을 사고파는 턴제 경제 시뮬레이션입니다. 임대 수익과 세금, 호재·악재에 대응해 자산을 불리고 더 높은 목표의 도시로 나아갑니다.",
+    "loop": "도시·시장 정보 확인 → 매물 매수 또는 직거래 → 월 진행과 이벤트 대응 → 임대·세금 계산 → 매도와 자산 목표 달성",
     "facts": [
-      "가상 도시 부동산 시장",
-      "100개 스테이지",
-      "선택이 결과로 이어지는 경제 시뮬레이션"
+      "도시마다 달라지는 토지·빌라·아파트·상가 매물",
+      "호재·악재를 읽는 월 단위 투자 판단",
+      "임대 수익·세금·매매 차익을 고려한 자산 성장"
     ],
     "keywords": [
       "부동산 시뮬레이션 게임",
@@ -206,7 +213,8 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.aptmarket",
     "email": "집값의 신 테스트 참여 문의",
-    "storeShort": "가상 도시의 시장을 읽고 100개 스테이지 투자 전략을 세우세요."
+    "storeShort": "가상 도시의 시장을 읽고 100개 스테이지 투자 전략을 세우세요.",
+    "icon": "/assets/app-icons/apt-market.png"
   },
   {
     "slug": "quitverse",
@@ -232,7 +240,8 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.quitverse",
     "email": "퇴사 좀 시켜줘 소식 문의",
-    "storeShort": "퇴사하려던 사장이 우주를 인수했다? 회사를 키우는 방치형 경영."
+    "storeShort": "퇴사하려던 사장이 우주를 인수했다? 회사를 키우는 방치형 경영.",
+    "icon": "/assets/app-icons/quitverse.png"
   },
   {
     "slug": "god-statistics",
@@ -240,15 +249,15 @@
     "short": "GOD & STATISTICS",
     "stage": "Android · 테스트 준비 중",
     "platform": "android",
-    "art": "/assets/portfolio/god-statistics.svg",
-    "hook": "오방기와 엽전, 만세력 통계로 오늘의 이야기를 풀어봅니다.",
+    "art": "/assets/app-icons/god-statistics.svg",
+    "hook": "만세력 풀이와 신점 의식을 각각 체험하고, 두 결과를 나란히 살펴보세요.",
     "audience": "한국 전통 상징과 운세 테마의 인터랙티브 콘텐츠를 좋아하는 성인",
-    "description": "만세력 통계와 오방기·엽전·산통 인터랙션을 엮은 운세 엔터테인먼트 프로젝트입니다. 현재 테스트를 준비 중입니다.",
-    "loop": "질문 고르기 → 상징 도구와 상호작용 → 결과와 해석 살펴보기",
+    "description": "사주방에서 만세력과 오행·십성·대운 풀이를 보고, 신당에서는 오방기·엽전·산통 의식을 체험하는 운세 앱입니다. 두 결과를 맞짱판에서 비교하고 풀이서를 PDF로 저장할 수 있습니다.",
+    "loop": "생년월일 입력 → 사주 풀이 또는 신점 의식 선택 → 결과 확인 → 두 결과 비교 → 풀이서 PDF 저장",
     "facts": [
-      "한국 전통 상징을 활용한 인터랙션",
-      "만세력 통계 테마",
-      "엔터테인먼트 목적의 운세 콘텐츠"
+      "만세력 기반 사주·오행·십성·대운 풀이",
+      "오방기·엽전·산통을 활용한 신점 인터랙션",
+      "신점과 사주 결과 비교 및 PDF 풀이서"
     ],
     "keywords": [
       "운세 인터랙티브 앱",
@@ -258,7 +267,8 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.godstatistics",
     "email": "신과 통계 테스트 소식 문의",
-    "storeShort": "만세력 통계와 전통 상징으로 풀어보는 운세 엔터테인먼트."
+    "storeShort": "만세력 사주 풀이와 오방기·엽전·산통 신점 의식을 체험하고 결과를 비교하세요.",
+    "icon": "/assets/app-icons/god-statistics.svg"
   },
   {
     "slug": "tail-pivot",
@@ -269,12 +279,12 @@
     "art": "/assets/portfolio/tail-pivot.jpg",
     "hook": "작은 펫과 함께 일하고, 모험하고, 나만의 방을 꾸며요.",
     "audience": "힐링 펫 수집과 방 꾸미기, 가벼운 성장 게임을 찾는 플레이어",
-    "description": "작은 펫과 함께 일하고 모험하며, 가구와 장난감으로 아늑한 방을 꾸미는 힐링 육성 게임입니다.",
-    "loop": "펫과 하루 보내기 → 일과 모험으로 모으기 → 가구 수집 → 방 꾸미기",
+    "description": "말랑한 펫 친구들과 다락방을 꾸미고, 들판에서 풀을 뽑아 보상을 모으며, 숲의 보스에 도전하는 힐링 육성 게임입니다. 펫을 모으고 함께 성장하며 나만의 아늑한 집을 만들어 보세요.",
+    "loop": "다락방 꾸미기 → 들판 알바로 보상 모으기 → 펫과 숲의 보스 토벌 → 새 펫·가구 해금",
     "facts": [
-      "포근한 펫 수집과 육성",
-      "일과 모험을 통한 성장",
-      "가구와 장난감으로 방 꾸미기"
+      "수채화풍 아기 펫 수집과 육성",
+      "풀뽑기 알바와 펫 동료 보스 토벌",
+      "다락방 꾸미기와 이웃 방문"
     ],
     "keywords": [
       "힐링 펫 키우기 게임",
@@ -284,7 +294,37 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.mikekor.tailpivot",
     "email": "말랑꼬리 테스트 참여 문의",
-    "storeShort": "작고 말랑한 펫 친구들과 놀고, 포근한 우리 집을 꾸며요!"
+    "storeShort": "작고 말랑한 펫 친구들과 놀고, 포근한 우리 집을 꾸며요!",
+    "icon": "/assets/app-icons/tail-pivot.svg"
+  },
+  {
+    "slug": "endless-edge",
+    "name": "Endless Edge",
+    "short": "ENDLESS EDGE",
+    "stage": "Android · 개발 중",
+    "platform": "android",
+    "art": "/assets/portfolio/endless-edge.png",
+    "icon": "/assets/app-icons/endless-edge.png",
+    "hook": "공격의 방향을 읽고, 패링과 회피로 검투의 흐름을 뒤집으세요.",
+    "audience": "정밀한 타이밍 전투와 무기 콤보, 다크 판타지 서사를 즐기는 플레이어",
+    "description": "어두운 요새에서 적과 1대1로 맞붙는 스와이프 검투 액션입니다. 공격 방향을 읽어 패링·회피·방어하고, 전사의 죽음 뒤에는 후계자가 장비와 힘을 이어받아 혈통의 이야기를 계속합니다.",
+    "loop": "요새 탐색 → 적의 공격 읽기 → 스와이프 공격·패링·회피 → 전리품과 장비 성장 → 쓰러진 뒤 후계자로 이어가기",
+    "facts": [
+      "네 방향 스와이프 공격과 무기별 콤보",
+      "패링·회피·방어로 적의 연속 공격을 깨고 반격",
+      "죽음 뒤 다음 혈통이 장비와 성장을 계승",
+      "미라의 야영지와 분기되는 요새 탐험"
+    ],
+    "keywords": [
+      "Endless Edge",
+      "다크 판타지 검투 게임",
+      "스와이프 액션 전투",
+      "패링 액션 RPG"
+    ],
+    "play": null,
+    "web": null,
+    "email": "Endless Edge 개발 소식 문의",
+    "storeShort": "스와이프 검투에서 패링과 회피로 버티고, 쓰러진 전사의 후계자로 검과 힘을 이어가세요."
   },
   {
     "slug": "bamtiworld",

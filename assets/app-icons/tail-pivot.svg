@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF2F0"/>
+      <stop offset="1" stop-color="#FFDDE8"/>
+    </linearGradient>
+    <linearGradient id="cream" x1="0" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#FFFDF6"/>
+      <stop offset="1" stop-color="#FFEFCF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="11" flood-color="#B97887" flood-opacity=".2"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="91" cy="130" r="14" fill="#FFFDF7" opacity=".9"/>
+  <circle cx="417" cy="350" r="11" fill="#FFFDF7" opacity=".9"/>
+  <path d="M94 245c-28-20-24-57 4-64 24-6 39 18 25 39 30-12 47 12 35 34-12 23-41 18-64-9Z" fill="#FF9EB4" opacity=".9"/>
+  <g filter="url(#shadow)" stroke="#74565A" stroke-width="11" stroke-linecap="round" stroke-linejoin="round">
+    <!-- floppy puppy ears -->
+    <path d="M172 177c-42-63-101-42-86 34 8 40 41 62 82 39Z" fill="#EFBF91"/>
+    <path d="M340 177c42-63 101-42 86 34-8 40-41 62-82 39Z" fill="#EFBF91"/>
+    <!-- round mochi face -->
+    <path d="M256 103c-91 0-153 64-153 157 0 92 57 153 153 153s153-61 153-153c0-93-62-157-153-157Z" fill="url(#cream)"/>
+    <!-- tiny strawberry beret -->
+    <path d="M189 129c13-49 121-70 160-12-37-10-76 8-100 32-21-14-39-20-60-20Z" fill="#FF829B"/>
+    <path d="m258 75 8-16m34 19 14-13m-78 20-14-13" fill="none" stroke="#8BBF83" stroke-width="9"/>
+    <path d="M256 111c-7-11-23-8-22 6 1 9 22 23 22 23s21-14 22-23c1-14-15-17-22-6Z" fill="#FFF6E9" stroke="none"/>
+    <!-- face -->
+    <ellipse cx="195" cy="270" rx="13" ry="17" fill="#57464A" stroke="none"/>
+    <ellipse cx="317" cy="270" rx="13" ry="17" fill="#57464A" stroke="none"/>
+    <circle cx="191" cy="264" r="4" fill="#FFF" stroke="none"/>
+    <circle cx="313" cy="264" r="4" fill="#FFF" stroke="none"/>
+    <ellipse cx="157" cy="300" rx="23" ry="12" fill="#FFA5B7" stroke="none" opacity=".82"/>
+    <ellipse cx="355" cy="300" rx="23" ry="12" fill="#FFA5B7" stroke="none" opacity=".82"/>
+    <path d="M244 290q12 12 24 0" fill="none" stroke-width="8"/>
+    <path d="M252 280c-7-9-20-2-12 7l16 14 16-14c8-9-5-16-12-7l-4 4Z" fill="#F28C98" stroke="none"/>
+    <!-- curled heart tail -->
+    <path d="M376 353c28 0 36 30 16 46-17 13-40 7-49-12" fill="none" stroke="#EFBF91" stroke-width="22"/>
+    <path d="M382 371c-8-10-22-3-16 8 4 7 17 13 17 13s13-10 13-17c0-11-14-13-14-4Z" fill="#FF91A8" stroke="none"/>
+  </g>
+  <g fill="#F7C95F">
+    <path d="m418 119 5 13 13 5-13 5-5 13-5-13-13-5 13-5Z"/>
+    <path d="m98 390 4 10 10 4-10 4-4 10-4-10-10-4 10-4Z"/>
+  </g>
+</svg>

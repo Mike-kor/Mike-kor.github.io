@@ -7,3 +7,10 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.js-motion .reveal{opacity:1;transform:none}.feature-art,.project-art img{transition:none}}
 
 .project-art-link{display:block;color:inherit;text-decoration:none}.project-art-link:focus-visible{outline:2px solid var(--green);outline-offset:4px}
+
+/* Official app marks sit beside the verified gameplay artwork. */
+.project-art>img.project-icon{position:absolute;z-index:4;top:14px;left:14px;width:54px;height:54px;object-fit:cover;border:1px solid #ffffff40;border-radius:14px;background:#101713;box-shadow:0 8px 24px #0009}
+.project-art.art-icon-only{display:grid;place-items:center;background:radial-gradient(ellipse at 50% 38%,#34493c,#17221b 72%)}
+.project-art.art-icon-only>img{width:min(44%,210px);height:auto;max-height:78%;object-fit:contain;border-radius:20%;filter:drop-shadow(0 16px 24px #0008)}
+.project-art.art-icon-only .art-mark{background:#101713ad}
+@media(max-width:620px){.project-art>img.project-icon{width:46px;height:46px;top:11px;left:11px;border-radius:12px}}

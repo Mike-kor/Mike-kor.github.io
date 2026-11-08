@@ -99,6 +99,9 @@
 
   const filterButtons = [...document.querySelectorAll(".filter-button")];
   const cards = [...document.querySelectorAll(".project-card")];
+  document.querySelectorAll(".project-icon, .project-art.art-icon-only > img").forEach((icon) => {
+    icon.addEventListener("error", () => icon.remove(), { once: true });
+  });
   const search = document.getElementById("project-search");
   const status = document.getElementById("filter-status");
   const emptyState = document.getElementById("empty-state");
