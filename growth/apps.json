@@ -5,15 +5,15 @@
     "short": "NUMERON",
     "stage": "Google Play · 출시",
     "platform": "android",
-    "art": "/assets/portfolio/numeron.jpg",
-    "hook": "숫자를 연결해 목표식을 만들고, 적의 파도에서 별을 지켜내세요.",
+    "art": "/assets/promotions/numeron-banner.webp",
+    "hook": "숫자식을 완성해 적을 격파하고, 별과 은하를 정복하세요.",
     "audience": "수학 퍼즐과 실시간 생존 전투, 전술 빌드를 함께 즐기는 플레이어",
-    "description": "목표 숫자에 맞는 식을 만들어 적을 격파하는 실시간 산술 생존 퍼즐입니다. 코어를 방어하고, 전술 모듈을 선택해 항성계와 보스에 도전합니다.",
+    "description": "숫자 노드를 이어 목표식을 완성하고 전장을 돌파하는 우주 생존 퍼즐입니다. 코어를 지키며 새로운 별을 차례로 정복하고 전술 빌드를 만들어 보세요.",
     "loop": "목표값 확인 → 숫자 노드 연결 → 적 격파와 코어 방어 → 전술 모듈 선택 → 다음 웨이브",
     "facts": [
-      "더하기·빼기·곱하기로 목표 수식 완성",
-      "숫자 노드를 골라 적을 터뜨리는 실시간 전투",
-      "코어를 지키며 웨이브와 보스에 도전"
+      "숫자 노드를 연결해 목표식 완성",
+      "실시간 전투에서 코어를 지키고 적의 파도 격파",
+      "별을 정복하며 전술 빌드와 우주 탐험 확장"
     ],
     "keywords": [
       "NUMERON 숫자 생존 퍼즐",
@@ -23,16 +23,16 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.mikekor.numeron",
     "email": "NUMERON 테스트 참여 문의",
-    "storeShort": "숫자식을 완성해 적의 파도에서 별을 지키는 실시간 생존 퍼즐.",
+    "storeShort": "숫자를 연결해 목표식을 만들고, 별을 정복하는 우주 생존 퍼즐.",
     "icon": "/assets/app-icons/numeron.png"
   },
   {
     "slug": "shooter-survival",
     "name": "슈터서바이벌",
     "short": "SHOOTER SURVIVAL",
-    "stage": "Google Play · 출시 · 웹 플레이 가능",
+    "stage": "Google Play · 비공개 테스트 · 웹 플레이 가능",
     "platform": "android web",
-    "art": "/assets/portfolio/shooter.jpg",
+    "art": "/assets/promotions/shooter-survival-banner.webp",
     "hook": "네온 전장에서 무기를 진화시키고, 보스 웨이브까지 버텨보세요.",
     "audience": "짧은 세션의 슈팅 액션과 로그라이크 성장을 찾는 플레이어",
     "description": "자동 조준과 무기 진화로 네온 전장을 돌파하는 생존 액션 게임입니다. 스테이지와 보스, 끝없는 생존 모드를 담았습니다.",
@@ -60,7 +60,7 @@
     "short": "GOLDILOCKS",
     "stage": "Google Play · 출시",
     "platform": "android",
-    "art": "/assets/portfolio/goldilocks.jpg",
+    "art": "/assets/portfolio/goldilocks-current.png",
     "hook": "살아갈 수 있는 행성을 만들고, 방어선을 세워 확장하세요.",
     "audience": "우주 전략과 기지 건설, 행성 개척을 즐기는 플레이어",
     "description": "얼어붙거나 뜨거운 외계 행성을 살기 좋은 행성으로 바꾸고 침략을 막아내는 방치형 우주 전략 게임입니다. 행성의 환경 변화와 은하 개척을 이어갑니다.",
@@ -112,7 +112,7 @@
     "slug": "snowball-apocalypse",
     "name": "눈덩이 대재앙",
     "short": "SNOWBALL APOCALYPSE",
-    "stage": "Android · 비공개 테스트",
+    "stage": "Google Play · 비공개 테스트",
     "platform": "android",
     "art": "/assets/app-icons/snowball-apocalypse.png",
     "hook": "눈덩이를 굴려 키우고, 길을 막는 나무와 건물을 산산이 부수세요.",
@@ -139,17 +139,17 @@
     "slug": "mukgeom",
     "name": "묵검: 천마일대기",
     "short": "MUKGEOM",
-    "stage": "Google Play · 출시",
+    "stage": "Google Play · 비공개 테스트",
     "platform": "android",
-    "art": "/assets/portfolio/mukgeom.jpg",
-    "hook": "이름 없는 무인이 묵검을 만나 천마의 길에 오릅니다.",
+    "art": "/assets/promotions/mukgeom-banner.webp",
+    "hook": "묵혼을 깨워 무협 세계를 가로지르고, 천마의 길을 개척하세요.",
     "audience": "무협 서사와 수련 성장, 세로형 RPG에 관심 있는 플레이어",
-    "description": "귀환의 서의 사냥·전투·귀환·장비 강화 구조를 바탕으로 무협 세계관을 만드는 모바일 RPG 프로젝트입니다. 검 속의 혼 묵혼을 중심으로 이야기와 지역·직업·기술 콘텐츠를 전환하고 있습니다.",
+    "description": "검 속의 혼 묵혼과 함께 사냥터를 누비는 세로형 무협 RPG입니다. 전투와 장비 성장의 재미를 바탕으로 천마의 길을 만들어 갑니다.",
     "loop": "사냥과 전투 → 전리품 획득 → 마을 귀환과 장비 정비 → 무협 서사·지역·기술 콘텐츠 확장",
     "facts": [
-      "사냥·전투·귀환·장비 강화 기반의 세로형 RPG",
-      "검 속의 혼 묵혼을 중심에 둔 오리지널 무협 서사",
-      "무협 지역·직업·기술 콘텐츠 전환 중"
+      "검 속의 혼 묵혼을 중심으로 펼쳐지는 무협 서사",
+      "사냥·전투·전리품·장비 강화로 이어지는 RPG 성장",
+      "세로 화면에 맞춘 모바일 무협 모험"
     ],
     "keywords": [
       "묵검 천마의 길",
@@ -159,16 +159,16 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.chunma",
     "email": "묵검 테스트 참여 문의",
-    "storeShort": "검 속의 혼 묵혼과 천마의 길을 담은 무협 RPG 프로젝트.",
+    "storeShort": "묵혼을 깨우고 천마의 길에 오르는 세로형 무협 RPG.",
     "icon": "/assets/app-icons/mukgeom.png"
   },
   {
     "slug": "isekai-idol",
     "name": "이세계 아이돌 키우기",
     "short": "ISEKAI IDOL",
-    "stage": "Google Play · 출시",
+    "stage": "Google Play · 비공개 테스트",
     "platform": "android",
-    "art": "/assets/portfolio/idol.jpg",
+    "art": "/assets/promotions/isekai-idol-banner.webp",
     "hook": "무대를 키우고 팬을 모아 이세계의 위협에 맞서세요.",
     "audience": "아이돌 육성과 방치형 성장, 픽셀 RPG를 좋아하는 플레이어",
     "description": "아이돌을 키워 무대와 팬덤을 넓히고, 이세계 몬스터와 보스에 맞서는 방치형 육성 RPG입니다. 탭 공격과 자동 전투, 스케줄 수익, 장비·코디 성장과 재데뷔를 이어갑니다.",
@@ -193,16 +193,16 @@
     "slug": "apt-market",
     "name": "집값의 신: 한 달만 더",
     "short": "APT. MARKET",
-    "stage": "Android · 비공개 테스트",
+    "stage": "Google Play · 비공개 테스트",
     "platform": "android",
-    "art": "/assets/portfolio/apt-market.jpg",
-    "hook": "도시의 흐름을 읽고, 한 달만 더 버틸 투자 결정을 내려보세요.",
+    "art": "/assets/promotions/apt-market-banner.webp",
+    "hook": "도시의 흐름을 읽고, 다음 한 달의 투자 결정을 내려보세요.",
     "audience": "부동산·경제 시뮬레이션과 선택형 경영 게임을 즐기는 플레이어",
-    "description": "가상 도시에서 매달 시장을 읽고 부동산을 사고파는 턴제 경제 시뮬레이션입니다. 임대 수익과 세금, 호재·악재에 대응해 자산을 불리고 더 높은 목표의 도시로 나아갑니다.",
-    "loop": "도시·시장 정보 확인 → 매물 매수 또는 직거래 → 월 진행과 이벤트 대응 → 임대·세금 계산 → 매도와 자산 목표 달성",
+    "description": "가상 도시의 시장 흐름을 읽고 부동산 포트폴리오를 만드는 투자 시뮬레이션입니다. 매물을 살펴보고 도시의 변화에 대응하며 자산을 키워 보세요.",
+    "loop": "도시 시장 확인 → 매물 투자 → 월 진행과 사건 대응 → 수익·세금 정산 → 자산 목표 도전",
     "facts": [
-      "도시마다 달라지는 토지·빌라·아파트·상가 매물",
-      "호재·악재를 읽는 월 단위 투자 판단",
+      "도시별 아파트·빌라·토지·상가 매물",
+      "호재와 악재를 읽는 월 단위 투자 판단",
       "임대 수익·세금·매매 차익을 고려한 자산 성장"
     ],
     "keywords": [
@@ -222,15 +222,15 @@
     "short": "QUITVERSE",
     "stage": "Android · 테스트 준비 중",
     "platform": "android",
-    "art": "/assets/portfolio/quitverse.jpg",
-    "hook": "퇴사하려던 사장이 회사를 키워 은하계까지 확장합니다.",
+    "art": "/assets/promotions/quitverse-banner.webp",
+    "hook": "퇴사하려던 사장이 우주를 인수했다! 회사를 키워 은하를 확장하세요.",
     "audience": "방치형 경영과 숫자 성장, 우주 테마를 좋아하는 플레이어",
-    "description": "회사를 키워 은하계까지 확장하는 방치형 경제 시뮬레이션입니다. 현재 테스트를 준비 중입니다.",
-    "loop": "사업 확장 → 수익 성장 → 새 행성 개척 → 더 큰 회사 운영",
+    "description": "퇴사 대신 우주 인수를 택한 사장과 회사를 키우는 방치형 경제 시뮬레이션입니다. 차원 결재석 연구소와 자동 구매로 사업을 확장하고, 다섯 가지 미니게임에도 도전하세요.",
+    "loop": "회사 운영 → 수익과 자동 구매 성장 → 미니게임·업적 도전 → 새 행성 개척과 우주 확장",
     "facts": [
-      "방치형 경제 성장",
-      "회사 운영과 확장",
-      "우주를 무대로 한 시뮬레이션"
+      "방치형 수익 성장과 회사 운영·확장",
+      "차원 결재석 연구소와 자동 구매, 업적 수집",
+      "다섯 가지 아케이드 미니게임과 10개 언어 지원"
     ],
     "keywords": [
       "방치형 경영 게임",
@@ -240,7 +240,7 @@
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.quitverse",
     "email": "퇴사 좀 시켜줘 소식 문의",
-    "storeShort": "퇴사하려던 사장이 우주를 인수했다? 회사를 키우는 방치형 경영.",
+    "storeShort": "퇴사하려던 사장이 우주를 인수했다! 회사를 키우고 다섯 가지 미니게임에 도전하세요.",
     "icon": "/assets/app-icons/quitverse.png"
   },
   {
@@ -274,17 +274,17 @@
     "slug": "tail-pivot",
     "name": "말랑꼬리: 포근펫 키우기",
     "short": "TAIL PIVOT",
-    "stage": "Android · 비공개 테스트",
+    "stage": "Google Play · 비공개 테스트",
     "platform": "android",
-    "art": "/assets/portfolio/tail-pivot.jpg",
+    "art": "/assets/promotions/tail-pivot-banner.webp",
     "hook": "작은 펫과 함께 일하고, 모험하고, 나만의 방을 꾸며요.",
     "audience": "힐링 펫 수집과 방 꾸미기, 가벼운 성장 게임을 찾는 플레이어",
-    "description": "말랑한 펫 친구들과 다락방을 꾸미고, 들판에서 풀을 뽑아 보상을 모으며, 숲의 보스에 도전하는 힐링 육성 게임입니다. 펫을 모으고 함께 성장하며 나만의 아늑한 집을 만들어 보세요.",
+    "description": "수채화풍 펫 친구들을 돌보고 포근한 집을 꾸미는 힐링 육성 게임입니다. 펫과 함께 일하고 모험하며 새 친구와 방 꾸미기 아이템을 만나 보세요.",
     "loop": "다락방 꾸미기 → 들판 알바로 보상 모으기 → 펫과 숲의 보스 토벌 → 새 펫·가구 해금",
     "facts": [
-      "수채화풍 아기 펫 수집과 육성",
-      "풀뽑기 알바와 펫 동료 보스 토벌",
-      "다락방 꾸미기와 이웃 방문"
+      "수채화풍 강아지·고양이 펫 수집과 돌보기",
+      "펫과 함께하는 들판 활동과 모험",
+      "가구와 소품으로 포근한 집 꾸미기"
     ],
     "keywords": [
       "힐링 펫 키우기 게임",
@@ -295,7 +295,7 @@
     "play": "https://play.google.com/store/apps/details?id=com.mikekor.tailpivot",
     "email": "말랑꼬리 테스트 참여 문의",
     "storeShort": "작고 말랑한 펫 친구들과 놀고, 포근한 우리 집을 꾸며요!",
-    "icon": "/assets/app-icons/tail-pivot.svg"
+    "icon": "/assets/app-icons/tail-pivot.png"
   },
   {
     "slug": "endless-edge",

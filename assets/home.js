@@ -4,22 +4,22 @@
     {
       title: "NUMERON",
       kicker: "ANDROID GAME · PUZZLE SURVIVAL",
-      description: "숫자 연쇄로 은하를 지키고, 무너지는 전장을 뒤집으세요.",
-      href: "/go/numeron/",
+      description: "숫자식을 완성해 적을 격파하고, 별과 은하를 정복하세요.",
+      href: "/install/numeron/",
       alt: "NUMERON의 우주 숫자 전투 아트",
     },
     {
       title: "집값의 신",
       kicker: "ANDROID GAME · ECONOMY SIMULATION",
-      description: "가상 도시의 시장을 읽고, 나만의 부동산 포트폴리오를 만드세요.",
-      href: "/go/apt-market/",
+      description: "도시의 흐름을 읽고, 다음 한 달의 투자 결정을 내려보세요.",
+      href: "/install/apt-market/",
       alt: "집값의 신: 한 달만 더의 도시 투자 시뮬레이션 아트",
     },
     {
       title: "밤티월드",
       kicker: "LIVE WEB WORLD · SOCIAL MINIHOME",
       description: "미니룸을 꾸미고, 미니미와 친구들의 방명록으로 이어지는 작은 웹 세계.",
-      href: "/go/bamtiworld/",
+      href: "/install/bamtiworld/",
       alt: "밤티월드의 노을 진 미니룸",
     },
   ];

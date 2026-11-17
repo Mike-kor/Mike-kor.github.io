@@ -10,11 +10,10 @@ for (const app of apps) {
   const title = `${app.name} | INDANG SOFT`;
   const canonical = `https://mike-kor.github.io/go/${app.slug}/`;
   const description = `${app.description} ${app.stage}.`;
-  const cta = app.play
-    ? `<a class="primary" data-destination="${esc(app.play)}" href="${esc(app.play)}">Google Play에서 보기 <span>↗</span></a>${app.web ? ` <a class="secondary" data-destination="${esc(app.web)}" href="${esc(app.web)}">웹에서 바로 플레이 ↗</a>` : ''}`
-    : app.web
-      ? `<a class="primary" data-destination="${esc(app.web)}" href="${esc(app.web)}">웹에서 바로 플레이 <span>↗</span></a>`
-      : `<a class="primary" href="mailto:indangsoft@gmail.com?subject=${encodeURIComponent(app.email)}">테스트·출시 소식 문의 <span>↗</span></a>`;
+  const splashUrl = `https://mike-kor.github.io/install/${app.slug}/`;
+  const cta = app.play || app.web
+    ? `<a class="primary" data-destination="${splashUrl}" href="/install/${esc(app.slug)}/">${app.play ? '다운로드·스토어 보기' : '웹에서 바로 시작'} <span>↗</span></a>`
+    : `<a class="primary" href="mailto:indangsoft@gmail.com?subject=${encodeURIComponent(app.email)}">게임 소개 보기 <span>↗</span></a>`;
   const shareLink = `<a class="secondary" href="/install/${esc(app.slug)}/">공유용 바로가기 링크 ↗</a>`;
   const appIcon = app.icon ? `<img class="campaign-icon" src="${esc(app.icon)}" alt="" loading="lazy">` : '';
   const schema = { '@context':'https://schema.org', '@type':'VideoGame', name:app.name, description:app.description, gamePlatform:app.platform.includes('web') ? ['Web browser'] : ['Android'], image:`https://mike-kor.github.io${app.art}`, url:canonical, author:{'@type':'Organization',name:'INDANG SOFT'} };

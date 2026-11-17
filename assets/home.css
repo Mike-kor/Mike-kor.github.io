@@ -14,3 +14,7 @@
 .project-art.art-icon-only>img{width:min(44%,210px);height:auto;max-height:78%;object-fit:contain;border-radius:20%;filter:drop-shadow(0 16px 24px #0008)}
 .project-art.art-icon-only .art-mark{background:#101713ad}
 @media(max-width:620px){.project-art>img.project-icon{width:46px;height:46px;top:11px;left:11px;border-radius:12px}}
+
+/* The artwork itself behaves as a campaign banner with an unmistakable next step. */
+.banner-cta{position:absolute;z-index:6;right:13px;bottom:13px;padding:9px 11px;border:1px solid #f3f2e5a8;background:#f3f2e5ed;color:#172019;font:8px var(--mono);letter-spacing:.1em;box-shadow:0 8px 24px #0005;transition:transform .22s,background .22s,color .22s}.project-art-link:hover .banner-cta,.project-art:hover .banner-cta{transform:translateY(-2px);background:var(--green);border-color:var(--green);color:#111a12}.project-art-link:focus-visible .banner-cta{outline:2px solid var(--green);outline-offset:3px}
+.project-art.promo-banner{background:#0d141b}.project-art.promo-banner>img:not(.project-icon){object-fit:contain;object-position:center;background:#0d141b}.project-art.promo-banner>img.project-icon{display:none}
