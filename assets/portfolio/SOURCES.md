@@ -13,7 +13,7 @@ Refreshed 2026-11-17 against the latest local project repositories, official sto
 | 이세계 아이돌 키우기 | `isekai-idol` | `promotions/isekai-idol-banner.webp` optimized from Play Store feature graphic | `app-icons/isekai-idol.png` from current Play Store icon |
 | 집값의 신: 한 달만 더 | `apt-market` | `promotions/apt-market-banner.webp` optimized from November 2026 store graphic | `app-icons/apt-market.png` from current store icon |
 | 퇴사 좀 시켜줘! | `quitverse-letmequit` | `promotions/quitverse-banner.webp` optimized from Korean store feature graphic | `app-icons/quitverse.png` from current Korean store app icon |
-| 신과 통계 | `god-statistics` | Official app icon | `app-icons/god-statistics.svg` from current project `icon.svg` |
+| 신과 통계 | `god-statistics` | Official app icon | `app-icons/god-statistics-console-reference.png`, a visual reconstruction from the current Play Console 512×512 listing preview (original source file unavailable in local project) |
 | 말랑꼬리: 포근펫 키우기 | `tail-pivot` | `promotions/tail-pivot-banner.webp` optimized from current Play feature graphic | `app-icons/tail-pivot.png` from current Google Play icon |
 | Endless Edge | `infinity-blade4` | `endless-edge.png`, an unaltered current combat capture | `app-icons/endless-edge.png` from English store assets; Android project is in development and has no Play listing yet |
 | 밤티월드 | `bamtiworld` | `bamti-sunset.jpg` + `bamti/*.svg` | Web project; no Android app icon |
