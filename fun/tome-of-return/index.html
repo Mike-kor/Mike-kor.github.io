@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11192d">
+  <title>가방이 먼저 귀환을 외친다 | 귀환의 서</title>
+  <meta name="description" content="보스는 아직인데 가방 무게가 먼저 귀환을 외친다. 전투와 전리품, 물약과 무게를 챙기며 원정을 이어가는 안드로이드 판타지 RPG, 귀환의 서.">
+  <link rel="canonical" href="https://mike-kor.github.io/fun/tome-of-return/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="INDANG SOFT">
+  <meta property="og:title" content="보스는 아직인데 가방이 먼저 귀환을 외친다 — 귀환의 서">
+  <meta property="og:description" content="기사·마법사·요정으로 원정하고, 전리품과 물약, 가방 무게를 챙겨 다시 출발하는 안드로이드 판타지 RPG.">
+  <meta property="og:url" content="https://mike-kor.github.io/fun/tome-of-return/">
+  <meta property="og:image" content="https://mike-kor.github.io/fun/tome-of-return/return-instagram.jpg">
+  <meta property="og:image:width" content="1080">
+  <meta property="og:image:height" content="1350">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="가방이 먼저 귀환을 외친다 — 귀환의 서">
+  <meta name="twitter:description" content="원정의 진짜 보스: 꽉 찬 가방. 안드로이드 판타지 RPG 귀환의 서.">
+  <meta name="twitter:image" content="https://mike-kor.github.io/fun/tome-of-return/return-instagram.jpg">
+  <link rel="icon" href="/assets/app-icons/tome-of-return.png" type="image/png">
+  <style>
+    :root{color-scheme:dark;--night:#11192d;--blue:#1b2947;--paper:#f4edd7;--gold:#ffd477;--mint:#b7f4cf;--muted:#b8c1d5;--rust:#ffae82}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:radial-gradient(ellipse at 50% -10%,#27395b 0%,var(--night) 54%);color:var(--paper);font-family:ui-rounded,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;line-height:1.58}
+    a{color:inherit}
+    .wrap{width:min(100% - 36px,720px);margin-inline:auto}
+    header{display:flex;align-items:center;gap:12px;padding:22px 0;font-size:.86rem;letter-spacing:.08em;font-weight:850}
+    header img{width:42px;height:42px;border-radius:13px;box-shadow:0 0 24px #ffd47742}
+    header .platform{margin-left:auto;color:var(--muted);font-size:.72rem;letter-spacing:.12em}
+    .hero{position:relative;overflow:hidden;border:1px solid #ffe4a52b;border-radius:28px;background:#17233e;box-shadow:0 24px 90px #0006}
+    .hero-art{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 48%;opacity:.96}
+    .hero-copy{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(22px,6vw,46px);background:linear-gradient(180deg,#11192da8 0%,transparent 28%,transparent 48%,#11192d24 60%,#11192df5 100%)}
+    .badge{align-self:flex-start;border:1px solid var(--gold);border-radius:999px;padding:7px 12px;color:var(--gold);font-size:.76rem;font-weight:900;letter-spacing:.06em;background:#11192d70;transform:rotate(-2deg)}
+    .headline{text-shadow:0 4px 24px #11192d}
+    .eyebrow{margin:0 0 9px;color:var(--mint);font-size:.78rem;font-weight:900;letter-spacing:.13em}
+    h1{margin:0;font-size:clamp(2.55rem,10.8vw,5.2rem);line-height:1.02;letter-spacing:-.065em}
+    h1 em{display:block;color:var(--gold);font-style:normal}
+    .subhead{max-width:30em;margin:16px 0 0;font-size:clamp(1rem,4vw,1.22rem);font-weight:650}
+    .section{padding:42px 0}
+    .section h2{margin:0 0 15px;font-size:clamp(1.65rem,7vw,2.4rem);line-height:1.12;letter-spacing:-.045em}
+    .section p{font-size:1.05rem}
+    .quip{border-left:4px solid var(--rust);padding:3px 0 3px 17px;color:#e5e9f0}
+    .quip strong{color:var(--rust)}
+    .checklist{padding:24px;border-radius:22px;background:var(--paper);color:var(--night)}
+    .checklist h2{margin-bottom:18px}
+    .row{display:grid;grid-template-columns:110px 1fr;gap:12px;padding:14px 0;border-top:1px solid #11192d27;font-size:1rem}
+    .row b{color:#485774}
+    .row span{font-weight:700}
+    .cta{padding:32px 24px 27px;border:1px solid #ffd47757;border-radius:24px;background:linear-gradient(145deg,#2b3c5d,#192541)}
+    .cta p{margin:8px 0 20px;color:#d9dfed}
+    .button{display:flex;justify-content:center;align-items:center;min-height:60px;padding:14px 20px;border-radius:15px;background:var(--gold);color:#211b11;text-decoration:none;font-size:1.08rem;font-weight:950;box-shadow:0 8px 0 #b78d3f;transition:transform .15s,box-shadow .15s}
+    .button:hover{transform:translateY(2px);box-shadow:0 6px 0 #b78d3f}
+    .fine{margin:14px 0 0!important;text-align:center;color:var(--muted)!important;font-size:.88rem!important}
+    footer{padding:22px 0 32px;color:var(--muted);font-size:.8rem;letter-spacing:.11em;font-weight:800}
+    @media(min-width:640px){.wrap{width:min(100% - 56px,720px)}.section{padding-block:52px}.row{grid-template-columns:140px 1fr}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header><img src="/assets/app-icons/tome-of-return.png" alt="귀환의 서 앱 아이콘"><b>귀환의 서</b><span class="platform">ANDROID RPG</span></header>
+    <main>
+      <section class="hero" aria-labelledby="title">
+        <img class="hero-art" src="return-party.webp" alt="전리품으로 가득 찬 가방을 메고 달빛 비치는 성문으로 귀환하는 모험가 일행">
+        <div class="hero-copy">
+          <div class="badge">원정대 귀환 안내 · 가방 먼저 확인</div>
+          <div class="headline">
+            <p class="eyebrow">보스는 아직인데</p>
+            <h1 id="title">가방이 먼저<em>귀환을 외친다.</em></h1>
+            <p class="subhead">전리품 하나만 더 줍고 싶었을 뿐인데, 물약이랑 무게를 확인하다가 어느새 귀환 타이밍 회의 중.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <p class="quip">“한 마리만 더 잡고 갈까?”<br><strong>가방: 지금 돌아가라고요.</strong></p>
+        <h2>원정은 사냥터에서,<br>정리는 마을에서</h2>
+        <p>기사·마법사·요정 중 하나로 사냥터를 탐험하는 판타지 RPG입니다. 직접 싸울지 자동 사냥에 맡길지 고르고, 전리품과 물약, 가방 무게를 챙겨 다음 원정을 준비하세요.</p>
+      </section>
+
+      <section class="section checklist" aria-labelledby="check-title">
+        <p class="eyebrow">출발 전 가방 점검</p>
+        <h2 id="check-title">모험가의 귀환 체크리스트</h2>
+        <div class="row"><b>전투 방식</b><span>손으로 직접 싸우기 또는 자동 사냥</span></div>
+        <div class="row"><b>챙길 것</b><span>전리품, 물약, 그리고 남은 가방 무게</span></div>
+        <div class="row"><b>마을에 오면</b><span>전리품 판매하고 장비 강화, 다음 사냥터 준비</span></div>
+        <div class="row"><b>직업 선택</b><span>기사 · 마법사 · 요정</span></div>
+      </section>
+
+      <section class="section">
+        <div class="cta">
+          <p class="eyebrow">다음 원정은 Android에서</p>
+          <h2>이번엔 가방부터 비우고 출발.</h2>
+          <p>전투와 귀환, 성장의 한 바퀴가 이어지는 판타지 RPG <b>귀환의 서</b>. Google Play에서 만나요.</p>
+          <a class="button" href="/install/tome-of-return/?utm_source=brochure&amp;utm_medium=social&amp;utm_campaign=daily-fun">Google Play에서 원정 출발</a>
+          <p class="fine">안드로이드 게임 · INDANG SOFT</p>
+        </div>
+      </section>
+    </main>
+    <footer>INDANG SOFT · ANDROID</footer>
+  </div>
+</body>
+</html>
