@@ -62,12 +62,12 @@
       <section class="coupon" aria-labelledby="coupon-title">
         <p class="eyebrow">유튜버 · 크리에이터 전용</p>
         <h1 id="coupon-title">크리에이터님께만 드리는<br>특별 원정 쿠폰</h1>
-        <p class="lead">채널을 운영하시는 분께만 따로 보내드리는 쿠폰이에요. 넉넉하게 챙겨서 편하게 플레이해 보시고, 재밌으셨다면 영상으로 소개해 주세요.</p>
+        <p class="lead">채널을 운영하시는 분께만 따로 보내드리는 쿠폰이에요. 부담 없이 한번 플레이해 보시고, 재밌으셨다면 영상으로 소개해 주세요.</p>
         <div class="code"><span>쿠폰 코드</span><b id="code">[쿠폰코드]</b></div>
         <ul class="perks">
-          <li id="reward">쿠폰 보상: [보상 내용]</li>
-          <li>사용 방법: 게임 실행 → 설정 → 쿠폰 입력</li>
-          <li>영상 제작 여부와 상관없이 자유롭게 써 주세요</li>
+          <li id="reward">크게는 못 드리지만, 초반 장비 강화를 충분히 해볼 수 있는 만큼 담았어요</li>
+          <li>사용 방법: 게임 실행 후 쿠폰 입력 메뉴에 코드 입력</li>
+          <li>영상이나 쇼츠로 소개해 주시면 감사의 뜻으로 추가 쿠폰을 드려요</li>
         </ul>
       </section>
 
@@ -112,7 +112,7 @@
     try{
       var q=new URLSearchParams(location.search);
       if(q.get('code')) document.getElementById('code').textContent=q.get('code');
-      if(q.get('reward')) document.getElementById('reward').textContent='쿠폰 보상: '+q.get('reward');
+      if(q.get('reward')) document.getElementById('reward').textContent=q.get('reward');
     }catch(e){}
   </script>
 </body>
