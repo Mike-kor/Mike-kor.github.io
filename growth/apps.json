@@ -1,11 +1,11 @@
 [
   {
     "slug": "numeron",
-    "name": "NUMERON - 숫자로 싸우는 전쟁",
+    "name": "뉴메론 (NUMERON): 숫자 생존 퍼즐",
     "short": "NUMERON",
     "stage": "Google Play · 출시",
     "platform": "android",
-    "art": "/assets/promotions/numeron-banner.webp",
+    "art": "/assets/promotions/numeron-kakao-banner-v1.png",
     "hook": "숫자식을 완성해 적을 격파하고, 별과 은하를 정복하세요.",
     "audience": "수학 퍼즐과 실시간 생존 전투, 전술 빌드를 함께 즐기는 플레이어",
     "description": "숫자 노드를 이어 목표식을 완성하고 전장을 돌파하는 우주 생존 퍼즐입니다. 코어를 지키며 새로운 별을 차례로 정복하고 전술 빌드를 만들어 보세요.",
@@ -22,37 +22,38 @@
       "우주 생존 퍼즐"
     ],
     "play": "https://play.google.com/store/apps/details?id=com.mikekor.numeron",
-    "email": "NUMERON 테스트 참여 문의",
+    "email": "뉴메론 문의",
     "storeShort": "숫자를 연결해 목표식을 만들고, 별을 정복하는 우주 생존 퍼즐.",
-    "icon": "/assets/app-icons/numeron.png"
+    "icon": "/assets/app-icons/numeron.png",
+    "shareTitle": "뉴메론"
   },
   {
     "slug": "shooter-survival",
     "name": "슈터서바이벌",
     "short": "SHOOTER SURVIVAL",
-    "stage": "Google Play · 비공개 테스트 · 웹 플레이 가능",
-    "platform": "android web",
-    "art": "/assets/promotions/shooter-survival-banner.webp",
+    "stage": "Google Play · 출시",
+    "platform": "android",
+    "art": "/assets/promotions/shooter-survival-kakao-banner-v1.png",
     "hook": "네온 전장에서 무기를 진화시키고, 보스 웨이브까지 버텨보세요.",
     "audience": "짧은 세션의 슈팅 액션과 로그라이크 성장을 찾는 플레이어",
     "description": "자동 조준과 무기 진화로 네온 전장을 돌파하는 생존 액션 게임입니다. 스테이지와 보스, 끝없는 생존 모드를 담았습니다.",
     "loop": "전장 진입 → 경험치 수집 → 무기 진화 → 보스 돌파 → 다음 빌드 도전",
     "facts": [
-      "6개 스테이지와 무한 생존 모드",
-      "12종 무기와 진화 빌드",
-      "8종 파일럿과 보스 전투"
+      "한 손으로 기체를 움직여 탄막을 피하는 전투",
+      "자동 조준·사격과 전투 중 강화 선택으로 무기와 능력 조합",
+      "항성계 이동, 스테이지·보스 도전, 무한 생존 모드"
     ],
     "keywords": [
-      "슈터 서바이벌",
-      "네온 생존 슈팅 게임",
-      "무기 진화 서바이벌",
-      "웹 슈팅 게임"
+      "슈터서바이벌",
+      "우주 생존 슈팅 게임",
+      "탄막 회피 액션",
+      "무기 조합 로그라이트"
     ],
     "play": "https://play.google.com/store/apps/details?id=com.shootersurvival.app",
-    "web": "https://shooter-survival.vercel.app",
-    "email": "슈터 서바이벌 테스트 문의",
+    "email": "슈터서바이벌 문의",
     "storeShort": "자동 조준 생존 슈터! 무기를 진화시키고 네온 전장과 보스를 돌파하세요.",
-    "icon": "/assets/app-icons/shooter-survival.png"
+    "icon": "/assets/app-icons/shooter-survival.png",
+    "shareTitle": "슈터서바이벌"
   },
   {
     "slug": "goldilocks",
@@ -60,7 +61,7 @@
     "short": "GOLDILOCKS",
     "stage": "Google Play · 출시",
     "platform": "android",
-    "art": "/assets/portfolio/goldilocks-current.png",
+    "art": "/assets/promotions/goldilocks-kakao-banner-v2.png",
     "hook": "살아갈 수 있는 행성을 만들고, 방어선을 세워 확장하세요.",
     "audience": "우주 전략과 기지 건설, 행성 개척을 즐기는 플레이어",
     "description": "얼어붙거나 뜨거운 외계 행성을 살기 좋은 행성으로 바꾸고 침략을 막아내는 방치형 우주 전략 게임입니다. 행성의 환경 변화와 은하 개척을 이어갑니다.",
@@ -77,9 +78,10 @@
       "우주 과학 도감 게임"
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.goldilocks",
-    "email": "골디락스 테스트 참여 문의",
+    "email": "골디락스 문의",
     "storeShort": "외계 행성을 테라포밍하고 침략을 막아 은하를 개척하세요.",
-    "icon": "/assets/app-icons/goldilocks.png"
+    "icon": "/assets/app-icons/goldilocks.png",
+    "shareTitle": "골디락스"
   },
   {
     "slug": "tome-of-return",
@@ -87,7 +89,7 @@
     "short": "TOME OF RETURN",
     "stage": "Google Play · 출시",
     "platform": "android",
-    "art": "/assets/app-icons/tome-of-return.png",
+    "art": "/assets/promotions/tome-of-return-kakao-banner-v1.png",
     "hook": "사냥터를 탐험하고, 전리품을 챙겨 다음 전투를 준비하세요.",
     "audience": "판타지 액션 RPG와 동료 수집, 캐릭터 성장을 좋아하는 플레이어",
     "description": "기사·마법사·요정 중 하나를 키우며 사냥터를 탐험하는 세로형 판타지 RPG입니다. 직접 전투와 자동 전투를 선택하고, 전리품 판매·물약 관리·장비 강화로 더 위험한 지역에 도전합니다.",
@@ -104,17 +106,18 @@
       "직접 조작 RPG"
     ],
     "play": "https://play.google.com/store/apps/details?id=com.vectormud.afterglow",
-    "email": "귀환의 서 테스트 참여 문의",
+    "email": "귀환의 서 문의",
     "storeShort": "사냥터를 탐험하고 전리품을 모아, 장비를 강화하며 판타지 세계를 돌파하세요.",
-    "icon": "/assets/app-icons/tome-of-return.png"
+    "icon": "/assets/app-icons/tome-of-return.png",
+    "shareTitle": "귀환의 서"
   },
   {
     "slug": "snowball-apocalypse",
     "name": "눈덩이 대재앙",
     "short": "SNOWBALL APOCALYPSE",
-    "stage": "Google Play · 비공개 테스트",
+    "stage": "Google Play · 출시",
     "platform": "android",
-    "art": "/assets/app-icons/snowball-apocalypse.png",
+    "art": "/assets/promotions/snowball-apocalypse-kakao-banner-v2.png",
     "hook": "눈덩이를 굴려 키우고, 길을 막는 나무와 건물을 산산이 부수세요.",
     "audience": "물리 기반 성장 시뮬레이션과 편안한 관찰형 게임을 좋아하는 플레이어",
     "description": "설산에서 눈덩이를 굴려 눈을 모으고, 충돌과 파괴로 덩치를 키우는 2D 물리 액션 게임입니다. 연구소에서 흡수력·내구도·추진력을 강화해 더 큰 장애물과 무대에 도전합니다.",
@@ -131,17 +134,18 @@
       "힐링 관찰 게임"
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.drawsnowball",
-    "email": "눈덩이 대재앙 테스트 문의",
+    "email": "눈덩이 대재앙 문의",
     "storeShort": "눈덩이를 굴려 키우고 나무와 건물을 부수세요. 연구소 업그레이드로 더 큰 파괴에 도전하세요.",
-    "icon": "/assets/app-icons/snowball-apocalypse.png"
+    "icon": "/assets/app-icons/snowball-apocalypse.png",
+    "shareTitle": "눈덩이 대재앙"
   },
   {
     "slug": "mukgeom",
-    "name": "묵검: 천마일대기",
+    "name": "묵검: 천마의 길",
     "short": "MUKGEOM",
-    "stage": "Google Play · 비공개 테스트",
+    "stage": "Google Play · 출시",
     "platform": "android",
-    "art": "/assets/promotions/mukgeom-banner.webp",
+    "art": "/assets/promotions/mukgeom-kakao-banner-v1.png",
     "hook": "묵혼을 깨워 무협 세계를 가로지르고, 천마의 길을 개척하세요.",
     "audience": "무협 서사와 수련 성장, 세로형 RPG에 관심 있는 플레이어",
     "description": "검 속의 혼 묵혼과 함께 사냥터를 누비는 세로형 무협 RPG입니다. 전투와 장비 성장의 재미를 바탕으로 천마의 길을 만들어 갑니다.",
@@ -158,9 +162,10 @@
       "천마 무협 게임"
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.chunma",
-    "email": "묵검 테스트 참여 문의",
+    "email": "묵검 문의",
     "storeShort": "묵혼을 깨우고 천마의 길에 오르는 세로형 무협 RPG.",
-    "icon": "/assets/app-icons/mukgeom.png"
+    "icon": "/assets/app-icons/mukgeom.png",
+    "shareTitle": "묵검"
   },
   {
     "slug": "isekai-idol",
@@ -193,9 +198,9 @@
     "slug": "apt-market",
     "name": "집값의 신: 한 달만 더",
     "short": "APT. MARKET",
-    "stage": "Google Play · 비공개 테스트",
+    "stage": "Google Play · 출시",
     "platform": "android",
-    "art": "/assets/promotions/apt-market-banner.webp",
+    "art": "/assets/promotions/apt-market-kakao-banner-v1.png",
     "hook": "도시의 흐름을 읽고, 다음 한 달의 투자 결정을 내려보세요.",
     "audience": "부동산·경제 시뮬레이션과 선택형 경영 게임을 즐기는 플레이어",
     "description": "가상 도시의 시장 흐름을 읽고 부동산 포트폴리오를 만드는 투자 시뮬레이션입니다. 매물을 살펴보고 도시의 변화에 대응하며 자산을 키워 보세요.",
@@ -212,9 +217,10 @@
       "아파트 게임"
     ],
     "play": "https://play.google.com/store/apps/details?id=com.indangsoft.aptmarket",
-    "email": "집값의 신 테스트 참여 문의",
-    "storeShort": "가상 도시의 시장을 읽고 100개 스테이지 투자 전략을 세우세요.",
-    "icon": "/assets/app-icons/apt-market.png"
+    "email": "집값의 신 문의",
+    "storeShort": "가상 도시의 시장 흐름을 읽고 매물에 투자해 보세요.",
+    "icon": "/assets/app-icons/apt-market.png",
+    "shareTitle": "집값의 신"
   },
   {
     "slug": "quitverse",

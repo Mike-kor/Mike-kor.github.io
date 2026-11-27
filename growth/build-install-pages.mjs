@@ -4,9 +4,12 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const apps = JSON.parse(fs.readFileSync(path.join(root, 'growth/apps.json'), 'utf8'));
+const requested = new Set(process.argv.slice(2));
+const selectedApps = apps.filter(app => requested.size === 0 || requested.has(app.slug));
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
-for (const app of apps) {
+for (const app of selectedApps) {
+  const shareTitle = app.shareTitle || app.name;
   const isSoon = !app.play && !app.web;
   const destination = app.play || app.web || `/go/${app.slug}/`;
   const isWeb = !app.play && Boolean(app.web);
@@ -27,7 +30,7 @@ for (const app of apps) {
   const page = `<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101713"><meta name="robots" content="noindex,follow">
 <title>${esc(title)}</title><meta name="description" content="${esc(description)}"><link rel="canonical" href="${url}">
-<meta property="og:type" content="website"><meta property="og:site_name" content="INDANG SOFT"><meta property="og:title" content="${esc(app.name)}"><meta property="og:description" content="${esc(description)}"><meta property="og:url" content="${url}"><meta property="og:image" content="https://mike-kor.github.io${esc(app.art)}"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website"><meta property="og:title" content="${esc(shareTitle)}"><meta property="og:description" content="${esc(app.hook)}"><meta property="og:url" content="${url}"><meta property="og:image" content="https://mike-kor.github.io${esc(app.art)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="600"><meta property="og:image:type" content="image/png"><meta property="og:image:alt" content="${esc(shareTitle)} 카카오톡 공유 배너"><meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/indang-succulent.svg" type="image/svg+xml"><link rel="stylesheet" href="/growth/install.css"><script defer src="/growth/install.js"></script>
 </head><body data-destination="${esc(destination)}" data-app="${esc(app.slug)}" data-kind="${isSoon ? 'soon' : isWeb ? 'web' : 'android'}" data-auto="${!isSoon && (isWeb || /출시/.test(app.stage)) ? 'true' : 'false'}">
 <div class="grain" aria-hidden="true"></div><header><a class="brand" href="/"><img src="/assets/indang-succulent.svg" alt=""><span>INDANG <b>SOFT</b></span></a><span class="signature">A WORLD MADE TO BE PLAYED</span></header>
@@ -38,4 +41,4 @@ for (const app of apps) {
   fs.mkdirSync(path.dirname(out), { recursive: true });
   fs.writeFileSync(out, page);
 }
-console.log(`Generated ${apps.length} share splash pages.`);
+console.log(`Generated ${selectedApps.length} share splash pages.`);
